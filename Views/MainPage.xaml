@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ParagensV2.Models"
+             x:Class="ParagensV2.Views.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{AppThemeBinding Light=#F0F4F8, Dark=#0B1120}">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Header -->
+        <Border Grid.Row="0" StrokeThickness="0" BackgroundColor="{StaticResource Primary}" Padding="16,22,16,16">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,4" Opacity="0.2" Radius="10" />
+            </Border.Shadow>
+            <VerticalStackLayout Spacing="12">
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12" VerticalOptions="Center">
+                    <Label Grid.Column="0" Text="Paragens &amp; Horários" TextColor="White" FontSize="22" FontAttributes="Bold" VerticalOptions="Center" />
+                    <Border Grid.Column="1" 
+                            StrokeThickness="0" 
+                            BackgroundColor="#283593" 
+                            HeightRequest="36" 
+                            Padding="12,0" 
+                            VerticalOptions="Center">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="18" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNavigateToHome" />
+                        </Border.GestureRecognizers>
+                        <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                            <Label Text="⭐" FontSize="14" VerticalOptions="Center" />
+                            <Label Text="Favoritos" TextColor="White" FontSize="12" FontAttributes="Bold" VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+                    </Border>
+                </Grid>
+
+                <!-- 4-Way Mode Switcher (STCP vs UNIR vs Metro vs CP) -->
+                <Grid ColumnDefinitions="*,*,*,*" ColumnSpacing="6">
+                    <!-- STCP Tab -->
+                    <Border Grid.Column="0" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding StcpTabBackground}" 
+                            HeightRequest="40" 
+                            Padding="4,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectStcpMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚌 STCP" 
+                               TextColor="{Binding StcpTabTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+
+                    <!-- UNIR Tab -->
+                    <Border Grid.Column="1" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding UnirTabBackground}" 
+                            HeightRequest="40" 
+                            Padding="4,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectUnirMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚍 UNIR" 
+                               TextColor="{Binding UnirTabTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+
+                    <!-- Metro Tab -->
+                    <Border Grid.Column="2" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding MetroTabBackground}" 
+                            HeightRequest="40" 
+                            Padding="4,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectMetroMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚇 Metro" 
+                               TextColor="{Binding MetroTabTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+
+                    <!-- CP Tab -->
+                    <Border Grid.Column="3" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding TrainTabBackground}" 
+                            HeightRequest="40" 
+                            Padding="4,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectTrainMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚆 CP" 
+                               TextColor="{Binding TrainTabTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <!-- Metro Sub-Pills (Linhas vs Estações) -->
+                <Grid IsVisible="{Binding IsMetroMode}" ColumnDefinitions="*,*" ColumnSpacing="8" Margin="0,2,0,0">
+                    <Border Grid.Column="0" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding MetroLinesPillBackground}" 
+                            HeightRequest="32" 
+                            Padding="8,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectMetroLinesSubMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚇 Linhas (7)" 
+                               TextColor="{Binding MetroLinesPillTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+
+                    <Border Grid.Column="1" 
+                            StrokeThickness="0" 
+                            BackgroundColor="{Binding MetroStationsPillBackground}" 
+                            HeightRequest="32" 
+                            Padding="8,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="16" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSelectMetroStationsSubMode" />
+                        </Border.GestureRecognizers>
+                        <Label Text="🚉 Estações (85)" 
+                               TextColor="{Binding MetroStationsPillTextColor}" 
+                               FontAttributes="Bold" 
+                               FontSize="12" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <!-- Search Bar & Map Button -->
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
+                    <Border Grid.Column="0" StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Padding="12,0" HeightRequest="44">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="22" />
+                        </Border.StrokeShape>
+                        <Grid ColumnDefinitions="Auto,*">
+                            <Label Grid.Column="0" Text="🔍" FontSize="16" VerticalOptions="Center" Margin="4,0,8,0" />
+                            <Entry Grid.Column="1" 
+                                   Text="{Binding SearchText}" 
+                                   Placeholder="{Binding SearchPlaceholder}" 
+                                   PlaceholderColor="{AppThemeBinding Light=#9E9E9E, Dark=#94A3B8}" 
+                                   TextColor="{AppThemeBinding Light=#212121, Dark=#F8FAFC}" 
+                                   FontSize="14" 
+                                   VerticalOptions="Center" 
+                                   TextChanged="OnSearchTextChanged" />
+                        </Grid>
+                    </Border>
+
+                    <!-- Train Map Button -->
+                    <Border Grid.Column="1" 
+                            IsVisible="{Binding IsTrainMode}" 
+                            StrokeThickness="0" 
+                            BackgroundColor="#1b652d" 
+                            HeightRequest="44" 
+                            Padding="14,0">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="22" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnOpenTrainMap" />
+                        </Border.GestureRecognizers>
+                        <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                            <Label Text="🗺️" FontSize="16" VerticalOptions="Center" />
+                            <Label Text="Mapa" TextColor="White" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+                    </Border>
+                </Grid>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="1">
+            
+            <!-- List View Container -->
+            <Grid IsVisible="{Binding IsListViewVisible}">
+                <!-- STCP Bus Lines List -->
+            <RefreshView IsVisible="{Binding IsStcpMode}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="#28d8c3">
+                <CollectionView ItemsSource="{Binding FilteredLines}" SelectionMode="Single" SelectionChanged="OnLineSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:StcpLine">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="16">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="16" VerticalOptions="Center">
+                                    <!-- Line Badge -->
+                                    <Border Grid.Column="0" HeightRequest="52" WidthRequest="52" BackgroundColor="{Binding Color}" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="26" />
+                                        </Border.StrokeShape>
+                                        <Label Text="{Binding LineNumber}" TextColor="White" FontSize="17" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <Label Text="STCP • Ver paragens e trajeto" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" Margin="0,2,0,0" />
+                                    </VerticalStackLayout>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="2" Text="➔" TextColor="{StaticResource Accent}" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+
+            <!-- UNIR Bus Lines List -->
+            <RefreshView IsVisible="{Binding IsUnirMode}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="#4877ff">
+                <CollectionView ItemsSource="{Binding FilteredUnirLines}" SelectionMode="Single" SelectionChanged="OnUnirLineSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:UnirLine">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="16">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="16" VerticalOptions="Center">
+                                    <!-- UNIR Line Badge -->
+                                    <Border Grid.Column="0" HeightRequest="52" WidthRequest="64" BackgroundColor="#4877ff" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="14" />
+                                        </Border.StrokeShape>
+                                        <Label Text="{Binding Code}" TextColor="White" FontSize="15" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="15" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <Label Text="{Binding Subtitle}" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" Margin="0,2,0,0" />
+                                    </VerticalStackLayout>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="2" Text="➔" TextColor="#4877ff" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+
+            <!-- Metro Lines List -->
+            <RefreshView IsVisible="{Binding ShowMetroLines}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="#212e65">
+                <CollectionView ItemsSource="{Binding FilteredMetroLines}" SelectionMode="Single" SelectionChanged="OnMetroLineSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:MetroLine">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="16">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="16" VerticalOptions="Center">
+                                    <!-- Metro Line Letter Badge -->
+                                    <Border Grid.Column="0" HeightRequest="52" WidthRequest="52" BackgroundColor="{Binding ColorHex}" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="26" />
+                                        </Border.StrokeShape>
+                                        <Label Text="{Binding BadgeText}" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <Label Text="{Binding RouteDescription}" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" Margin="0,2,0,0" LineBreakMode="TailTruncation" />
+                                    </VerticalStackLayout>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="2" Text="➔" TextColor="{Binding ColorHex}" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+
+            <!-- Metro Stations List -->
+            <RefreshView IsVisible="{Binding ShowMetroStations}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="#212e65">
+                <CollectionView ItemsSource="{Binding FilteredMetroStations}" SelectionMode="Single" SelectionChanged="OnMetroStationSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:MetroStation">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="16">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="16" VerticalOptions="Center">
+                                    <!-- Station Icon Badge -->
+                                    <Border Grid.Column="0" HeightRequest="52" WidthRequest="52" BackgroundColor="#212e65" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="26" />
+                                        </Border.StrokeShape>
+                                        <Label Text="🚇" FontSize="22" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <HorizontalStackLayout Spacing="8" Margin="0,3,0,0">
+                                            <Label Text="{Binding ZoneDisplay}" TextColor="#1565C0" FontSize="12" FontAttributes="Bold" />
+                                            <Label Text="•" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" />
+                                            <Label Text="{Binding LinesDisplay, StringFormat='Linhas {0}'}" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="2" Text="➔" TextColor="#212e65" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+
+            <!-- CP / IP Train Stations List -->
+            <RefreshView IsVisible="{Binding IsTrainMode}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="#1b652d">
+                <CollectionView ItemsSource="{Binding FilteredStations}" SelectionMode="Single" SelectionChanged="OnStationSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:TrainStation">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="16">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="16" VerticalOptions="Center">
+                                    <!-- Train Icon Badge -->
+                                    <Border Grid.Column="0" HeightRequest="52" WidthRequest="52" BackgroundColor="#1b652d" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="26" />
+                                        </Border.StrokeShape>
+                                        <Label Text="🚆" FontSize="22" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Station Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <Label Text="{Binding Code, StringFormat='Rede Ferroviária • Código {0}'}" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" Margin="0,2,0,0" />
+                                    </VerticalStackLayout>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="2" Text="➔" TextColor="#1b652d" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+            </Grid>
+
+            <!-- Map View Container -->
+            <Grid IsVisible="{Binding IsMapViewVisible}">
+                <WebView x:Name="NearbyMapWebView" Navigating="OnMapNavigating" UserAgent="ParagensV2/1.0" />
+                <ActivityIndicator IsRunning="{Binding IsLoadingLocation}" IsVisible="{Binding IsLoadingLocation}" Color="{StaticResource Accent}" HorizontalOptions="Center" VerticalOptions="Center" />
+                
+                <!-- Floating GPS Button -->
+                <Border StrokeThickness="0" BackgroundColor="{StaticResource Primary}" HeightRequest="48" WidthRequest="48" HorizontalOptions="End" VerticalOptions="End" Margin="16,16">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="24" />
+                    </Border.StrokeShape>
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,4" Opacity="0.3" Radius="8" />
+                    </Border.Shadow>
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCenterLocationClicked" />
+                    </Border.GestureRecognizers>
+                    <Label Text="📍" FontSize="22" HorizontalOptions="Center" VerticalOptions="Center" />
+                </Border>
+            </Grid>
+        </Grid>
+
+        <!-- Bottom Tab Bar -->
+        <Border Grid.Row="2" StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,-4" Opacity="0.1" Radius="8" />
+            </Border.Shadow>
+            <Grid ColumnDefinitions="*,*" HeightRequest="56">
+                <!-- List Tab -->
+                <Border Grid.Column="0" BackgroundColor="Transparent" StrokeThickness="0">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnShowListView" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="2">
+                        <Label Text="📄" FontSize="20" HorizontalOptions="Center" Opacity="{Binding ListViewTabOpacity}" />
+                        <Label Text="Lista" FontSize="11" FontAttributes="Bold" TextColor="{Binding ListViewTabColor}" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                </Border>
+                <!-- Map Tab -->
+                <Border Grid.Column="1" BackgroundColor="Transparent" StrokeThickness="0">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnShowMapView" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="2">
+                        <Label Text="🗺️" FontSize="20" HorizontalOptions="Center" Opacity="{Binding MapViewTabOpacity}" />
+                        <Label Text="Mapa" FontSize="11" FontAttributes="Bold" TextColor="{Binding MapViewTabColor}" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             xmlns:models="clr-namespace:ParagensV2.Models"
+             x:Class="ParagensV2.Views.MetroLineStopsPage"
+             BackgroundColor="{StaticResource Background}">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Header -->
+        <Border Grid.Row="0" StrokeThickness="0" BackgroundColor="{Binding LineColor}" Padding="20,24,20,18">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,4" Opacity="0.2" Radius="10" />
+            </Border.Shadow>
+            <VerticalStackLayout Spacing="10">
+                <Grid ColumnDefinitions="*,Auto,Auto" ColumnSpacing="8">
+                    <HorizontalStackLayout Grid.Column="0" Spacing="8" VerticalOptions="Center">
+                        <Border HeightRequest="36" WidthRequest="44" BackgroundColor="White" StrokeThickness="0">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="8" />
+                            </Border.StrokeShape>
+                            <Label Text="{Binding Line.BadgeText}" TextColor="{Binding LineColor}" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                        </Border>
+                        <Label Text="Metro do Porto" TextColor="White" FontSize="15" FontAttributes="Bold" VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+
+                    <!-- Inverter Sentido Button -->
+                    <Button Grid.Column="1" 
+                            Text="⇄ Inverter Sentido" 
+                            FontAttributes="Bold" 
+                            FontSize="12" 
+                            HeightRequest="36"
+                            CornerRadius="18"
+                            BackgroundColor="#212e65" 
+                            TextColor="White"
+                            Padding="12,0"
+                            Clicked="OnToggleDirection" />
+
+                    <!-- Kebab Menu Button -->
+                    <Border Grid.Column="2" 
+                            HeightRequest="36" 
+                            WidthRequest="36" 
+                            BackgroundColor="#212e65" 
+                            StrokeThickness="0" 
+                            VerticalOptions="Center">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="18" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnKebabMenuClicked" />
+                        </Border.GestureRecognizers>
+                        <Label Text="⋮" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Border>
+                </Grid>
+
+                <Label Text="{Binding Line.Name}" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,2,0,0" LineBreakMode="TailTruncation" />
+
+                <!-- Direction Status Badge -->
+                <Border StrokeThickness="0" BackgroundColor="#212e65" Padding="12,6" HorizontalOptions="Start">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="8" />
+                    </Border.StrokeShape>
+                    <Label Text="{Binding DirectionStatusText}" TextColor="White" FontSize="12" FontAttributes="Bold" />
+                </Border>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="1">
+            <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" Color="{Binding LineColor}" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="40" HeightRequest="40" />
+
+            <Label Text="Sem estações registadas de momento." 
+                   TextColor="{StaticResource TextSecondary}" 
+                   FontSize="15" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                   IsVisible="{Binding IsEmpty}" />
+
+            <CollectionView ItemsSource="{Binding Stops}" SelectionMode="Single" SelectionChanged="OnStationSelected" Margin="12,12,12,24">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:MetroStation">
+                        <Border StrokeThickness="0" BackgroundColor="{StaticResource CardBackground}" Margin="4,6,4,6" Padding="14">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="12" />
+                            </Border.StrokeShape>
+                            <Border.Shadow>
+                                <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="5" />
+                            </Border.Shadow>
+
+                            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="14" VerticalOptions="Center">
+                                <!-- Station Order Badge -->
+                                <Border Grid.Column="0" HeightRequest="36" WidthRequest="36" BackgroundColor="#ECEFF1" StrokeThickness="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="18" />
+                                    </Border.StrokeShape>
+                                    <Label Text="{Binding Order}" TextColor="#212e65" FontSize="13" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                                </Border>
+
+                                <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label Text="{Binding Name}" TextColor="{StaticResource TextPrimary}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                    <HorizontalStackLayout Spacing="8" Margin="0,3,0,0">
+                                        <Label Text="{Binding ZoneDisplay}" TextColor="#1565C0" FontSize="12" FontAttributes="Bold" />
+                                        <Label Text="•" TextColor="{StaticResource TextSecondary}" FontSize="12" />
+                                        <Label Text="{Binding LinesDisplay, StringFormat='Linhas {0}'}" TextColor="{StaticResource TextSecondary}" FontSize="12" />
+                                    </HorizontalStackLayout>
+                                </VerticalStackLayout>
+
+                                <Label Grid.Column="2" Text="➔" TextColor="{StaticResource Accent}" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" />
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </Grid>
+</ContentPage>

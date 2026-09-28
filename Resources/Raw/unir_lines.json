@@ -1,0 +1,3514 @@
+[
+  {
+    "Code": "1001",
+    "Name": "Arouca (CCT) - Cabeçais (via Tropeço)",
+    "Origin": "Arouca (CCT) (via Tropeço)",
+    "Destination": "Cabeçais (via Tropeço)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1002",
+    "Name": "Arouca (CCT) - Lourosa/Fiães (Interface)",
+    "Origin": "Arouca (CCT)",
+    "Destination": "Lourosa/Fiães (Interface)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1003",
+    "Name": "Arouca (CCT) - S. João da Madeira (CCT) (via Escariz)",
+    "Origin": "Arouca (CCT)  (via Escariz)",
+    "Destination": "S. João da Madeira (CCT) (via Escariz)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1004",
+    "Name": "Arouca (CCT) - Parque das Camélias (pela A32)",
+    "Origin": "Arouca (CCT)",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1005",
+    "Name": "Arouca (Chão de Ave) - Escariz (EBS) (via Agras)",
+    "Origin": "Arouca (Chão de Ave) (via Agras)",
+    "Destination": "Escariz (EBS) (via Agras)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1006",
+    "Name": "Carregosa - Arouca (Mosteirô) (via Cesar)",
+    "Origin": "Carregosa (via Cesar)",
+    "Destination": "Arouca (Mosteirô) (via Cesar)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1007",
+    "Name": "Arouca (CCT) -  S. João da Madeira (CCT) (via Carregosa)",
+    "Origin": "Arouca (CCT) (via Carregosa)",
+    "Destination": "S. João da Madeira (CCT) (via Carregosa)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1008",
+    "Name": "Arouca (CCT) - Noninha",
+    "Origin": "Noninha",
+    "Destination": "Arouca (CCT)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1009",
+    "Name": "Arouca (CCT) - Arouca (Canelas) (via Vila Cova)",
+    "Origin": "Arouca (CCT) (via Vila Cova)",
+    "Destination": "Arouca (Canelas) (via Vila Cova)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1010",
+    "Name": "Arouca (CCT) - Vila Viçosa",
+    "Origin": "Arouca (CCT)",
+    "Destination": "Vila Viçosa",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1011",
+    "Name": "Fuste - Arouca (CCT)",
+    "Origin": "Fuste",
+    "Destination": "Arouca (CCT)\t",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1012",
+    "Name": "Rio de Frades - Arouca (CCT)",
+    "Origin": "Rio de Frades",
+    "Destination": "Arouca (CCT)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1013",
+    "Name": "Albergaria da Serra - Arouca (CCT)",
+    "Origin": "Albergaria da Serra",
+    "Destination": "Arouca (CCT)\t",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1015",
+    "Name": "Cela - São João da Madeira (CCT)",
+    "Origin": "Cela",
+    "Destination": "S. João Madeira (CCT)\t",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1016",
+    "Name": "Arouca (CCT) - Vale de Cambra (CCT)",
+    "Origin": "Arouca (CCT)",
+    "Destination": "Vale de Cambra (CCT)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1019",
+    "Name": "Regoufe - Arouca (CCT) (por Covêlo de Paivó)",
+    "Origin": "Regoufe (por Covêlo de Paivó)",
+    "Destination": "Arouca (CCT) (por Covêlo de Paivó)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1020",
+    "Name": "Rossio (Zona Industrial) - Escariz (EBS)",
+    "Origin": "Rossio (Zona Industrial) ",
+    "Destination": "Escariz (EBS)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1021",
+    "Name": "Arouca (CCT) - Cabeçais (via Rossas)",
+    "Origin": "Arouca (CCT)",
+    "Destination": "Cabeçais (via Rossas)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1022",
+    "Name": "Arouca (CCT) - Campanhã (Estação) (pela A32)",
+    "Origin": "Arouca (CCT) (pela A32)",
+    "Destination": "Campanhã (Estação) (pela A32)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1023",
+    "Name": "Arouca (CCT) - S. João da Madeira (CCT) (pela variante à EN326)",
+    "Origin": "Arouca (CCT)",
+    "Destination": "S. João da Madeira (CCT) (pela variante à EN326)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1024",
+    "Name": "Arouca (Rua das Flores) - Arouca (CCT)",
+    "Origin": "Arouca (Rua das Flores)",
+    "Destination": "Arouca (CCT)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1025",
+    "Name": "Londral - Escariz (EBS) (via Carvalhal Redondo)",
+    "Origin": "Londral (via Carvalhal Redondo)",
+    "Destination": "Escariz (EBS) (via Carvalhal Redondo)",
+    "Municipality": "Arouca",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1201",
+    "Name": "O. Azeméis (Esc. Dr. Ferreira da Silva) - Ul (Igreja) (via São Roque)",
+    "Origin": "O. Azeméis (Esc. Dr. Ferreira da Silva)",
+    "Destination": "Ul (Igreja)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1202",
+    "Name": "O. Azeméis (Graciosa) - Loureiro (Escola)",
+    "Origin": "O. Azeméis (Graciosa)",
+    "Destination": "O. Azeméis (Esc. Loureiro)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1203",
+    "Name": "São João da Madeira (CCT) - Ovar (Estação) (pela N327)",
+    "Origin": "S. João Madeira (CCT) (pela N327)",
+    "Destination": "Ovar (Estação) (pela N327)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1204",
+    "Name": "Vilarinho S. Luís - O. Azeméis (Escola Soares Basto) (via Palmaz)",
+    "Origin": "Vilarinho S. Luís (via Palmaz)",
+    "Destination": "O. Azeméis (Esc. Soares Basto) (via Palmaz)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1206",
+    "Name": "Pinheiro da Bemposta - O. Azeméis (Escola Soares Basto) (via Ferreiros)",
+    "Origin": "Pinheiro da Bemposta (via Ferreiros)",
+    "Destination": "O. Azeméis (Esc. Soares Basto) (via Ferreiros)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1207",
+    "Name": "Fajões - São João da Madeira (CCT)",
+    "Origin": "Fajões",
+    "Destination": "S. João da Madeira (CCT)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1208",
+    "Name": "S. João da Madeira (CCT) - Ovar (Estação) (via S. Vicente)",
+    "Origin": "S. João Madeira (CCT) (via S. Vicente)",
+    "Destination": "Ovar (Estação) (via S. Vicente)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1209",
+    "Name": "Vale de Cambra (CCT) - O. Azeméis (Barreiro) (via Escolas)",
+    "Origin": "Vale de Cambra (CCT)",
+    "Destination": "O. Azeméis (Esc. Soares Basto)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1210",
+    "Name": "O. Azeméis (Escola Soares Basto) - O. Azeméis (Cesar) (via Carregosa)",
+    "Origin": "O. Azeméis (Esc. Soares Basto)",
+    "Destination": "O. Azeméis (Cesar) (via Carregosa)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1211",
+    "Name": "O. Azeméis (Escola da Carregosa) - S. João da Madeira (CCT) (via Fajões)",
+    "Origin": "O. Azeméis (Esc. da Carregosa)",
+    "Destination": "S. João Madeira (CCT) (via Fajões)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1212",
+    "Name": "São Martinho da Gândara - S. João da Madeira (CCT)",
+    "Origin": "São Martinho da Gândara",
+    "Destination": "S. João da Madeira (CCT)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1213",
+    "Name": "Pinheiro da Bemposta - S. João da Madeira (CCT)",
+    "Origin": "Pinheiro da Bemposta",
+    "Destination": "S. João da Madeira (CCT)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1214",
+    "Name": "O. Azeméis (Escola Soares Basto) - Fajões (via Gândara)",
+    "Origin": "O. Azeméis (Esc. Soares Basto)",
+    "Destination": "O. Azeméis (Fajões) (via Gândara)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1215",
+    "Name": "Vale de Cambra (CCT) - S. João Madeira (CCT)  (via Esc. Dairas)",
+    "Origin": "Vale de Cambra (CCT)",
+    "Destination": "S. João Madeira (CCT) ",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1216",
+    "Name": "O. Azeméis (Centro) - S. João da Madeira (CCT) (via Cucujães)",
+    "Origin": "O. Azeméis (Centro)",
+    "Destination": "S. João Madeira (CCT)  (via Cucujães)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1217",
+    "Name": "O. Azeméis (Escolas Ferreira de Castro) - Estarreja (Estação)",
+    "Origin": "O. Azeméis (Centro)",
+    "Destination": "Estarreja (Estação)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1218",
+    "Name": "Vale de Cambra (CCT) - O. Azeméis (Escola Soares Basto) (via Carregosa)",
+    "Origin": "Vale de Cambra (CCT) (via Carregosa)",
+    "Destination": "O. Azeméis (Esc. Soares Basto) (via Carregosa)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1219",
+    "Name": "O. Azeméis (Escola Soares Basto) - Casa-Museu F. Castro",
+    "Origin": "O. Azeméis (Esc. Soares Basto)",
+    "Destination": "Casa-Museu F. Castro",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1220",
+    "Name": "O. Azeméis (Centro) - Parque das Camélias (pela A32)",
+    "Origin": "O. Azeméis (Centro)",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1221",
+    "Name": "S. Martinho da Gândara - S. João da Madeira (CCT) (via Felgueira)",
+    "Origin": "S. Martinho da Gândara (via Felgueira)",
+    "Destination": "S. João Madeira (CCT) (via Felgueira)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1222",
+    "Name": "Vale de Cambra (CCT) - S. João da Madeira (CCT) (via Z.I. Lordelo-Codal)",
+    "Origin": "Vale Cambra (CCT) (via Z.I. Lordelo-Codal)",
+    "Destination": "S. João Madeira (CCT) (via Z.I. Lordelo-Codal)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1223",
+    "Name": "O. Azeméis (Centro) - Parque das Camélias (via Vale de Cambra pela A32)",
+    "Origin": "O. Azeméis (Centro) (via V. Cambra pela A32)",
+    "Destination": "Parque Camélias (via V. Cambra pela A32)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1225",
+    "Name": "O. Azeméis (Esc. Loureiro) - São Martinho da Gândara",
+    "Origin": "O. Azeméis (Esc. Loureiro)",
+    "Destination": "São Martinho da Gândara",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1226",
+    "Name": "O. Azeméis (Escola da Carregosa) - Rossio (Zona Industrial) (via Teamonde)",
+    "Origin": "O. Azeméis (Escola Carregosa)",
+    "Destination": "Rossio (Zona Industrial) (via Teamonde)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1228",
+    "Name": "O. Azeméis (Escola Loureiro) - São Martinho da Gândara",
+    "Origin": "O. Azeméis (Esc. Loureiro)",
+    "Destination": "São Martinho da Gândara",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1229",
+    "Name": "Pinhão - Fajões (Escola)",
+    "Origin": "Pinhão",
+    "Destination": "Fajões (Escola)",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1230",
+    "Name": "Circular | TUAZ Laranja",
+    "Origin": "Circular | TUAZ Larnja",
+    "Destination": "",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1240",
+    "Name": "Circular | TUAZ Verde (via Santiago de Riba Ul)",
+    "Origin": "Circular | TUAZ  Verde (via Santiago de Riba Ul)",
+    "Destination": "",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1241",
+    "Name": "Circular | TUAZ  Verde (via S.Roque)",
+    "Origin": "Circular | TUAZ  Verde (via S. Roque)",
+    "Destination": "",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1243",
+    "Name": "Circular | TUAZ Verde (via Ferreiros)",
+    "Origin": "Circular | TUAZ Verde (via Ferreiros)",
+    "Destination": "",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1244",
+    "Name": "Circular | TUAZ Verde (via Ossela)",
+    "Origin": "Circular | TUAZ Verde (via Ossela)",
+    "Destination": "",
+    "Municipality": "Oliveira De AzemãIs",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1401",
+    "Name": "Santa Maria da Feira (Escolas) - Duas Igrejas",
+    "Origin": "S. Maria da Feira (Escolas)",
+    "Destination": "Duas Igrejas",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1402",
+    "Name": "Circular | S. João da Madeira (via Outeiro)",
+    "Origin": "Circular | S. João Madeira (via Outeiro)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1403",
+    "Name": "Circular | S. João da Madeira (via Outeiro)",
+    "Origin": "Circular | S. João Madeira (via Outeiro)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1404",
+    "Name": "Circular | S. João da Madeira (via Pigeiros)",
+    "Origin": "Circular | S. João Madeira (via Pigeiros)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1405",
+    "Name": "Circular | S. João da Madeira (via Pigeiros)",
+    "Origin": "Circular | S. João Madeira (via Pigeiros)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1406",
+    "Name": "Circular | S. João da Madeira (via Cucujães)",
+    "Origin": "Circular | S. João Madeira (via Cucujães)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1407",
+    "Name": "Circular | S. João da Madeira (via Cucujães)",
+    "Origin": "Circular | S. João Madeira (via Cucujães)",
+    "Destination": "",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1408",
+    "Name": "S. J. Madeira (CCT) - Carvalhos (Esc. Padre António Luís Moreira)",
+    "Origin": "S. João Madeira (CCT)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira)",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1409",
+    "Name": "S. João da Madeira (CCT) - Santa Maria da Feira (Escolas)",
+    "Origin": "S. João Madeira (CCT)",
+    "Destination": "Santa Maria da Feira (Escolas)",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1410",
+    "Name": "S. João da Madeira (CCT) - Campanhã (Estação) (pela A32)",
+    "Origin": "S. João Madeira (CCT) (pela A32)",
+    "Destination": "Campanhã (Estação) (pela A32)",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1411",
+    "Name": "Aveiro (CCT) - S. João da Madeira (CCT) (pela A29)",
+    "Origin": "Aveiro (CCT) (pela A29)",
+    "Destination": "S. João da Madeira (CCT) (pela A29)",
+    "Municipality": "SãO JoãO Da Madeira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1601",
+    "Name": "Viadal - Vale de Cambra (CCT)",
+    "Origin": "Viadal",
+    "Destination": "Vale de Cambra (CCT)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1602",
+    "Name": "Carvalhal do Chão - Vale de Cambra (CCT) (via Paraduça)",
+    "Origin": "Carvalhal do Chão (via Paraduça)",
+    "Destination": "Vale de Cambra (CCT) (via Paraduça)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1603",
+    "Name": "Casal Velide - Vale de Cambra (CCT) (via Casal de Arão)",
+    "Origin": "Casal Velide (via Casal de Arão)",
+    "Destination": "Vale de Cambra (CCT) (via Casal de Arão)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1604",
+    "Name": "Vale de Cambra (CCT) - Rossio (Zona Industrial)",
+    "Origin": "Vale de Cambra (CCT)",
+    "Destination": "Rossio (Zona Industrial)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1605",
+    "Name": "Póvoa Junqueira - Vale de Cambra (CCT) (via Cabanes)",
+    "Origin": "Póvoa Junqueira (via Cabanes)",
+    "Destination": "Vale de Cambra (CCT) (via Cabanes)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1606",
+    "Name": "Vale de Cambra (Vila Nova) - Vale de Cambra (CCT) (via Cavião)",
+    "Origin": "Vale de Cambra (Vila Nova) ",
+    "Destination": "Vale de Cambra (CCT) (via Cavião)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1607",
+    "Name": "Baralhas - Vale de Cambra (CCT)",
+    "Origin": "Baralhas",
+    "Destination": "Vale de Cambra (CCT)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1608",
+    "Name": "162 | Vale de Cambra (CCT) - Rossio (Zona Industrial) (via Cabanelas)",
+    "Origin": " Vale de Cambra (CCT) (via Cabanelas)",
+    "Destination": "Rossio (Zona Industrial) (via Cabanelas)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1609",
+    "Name": "Circular | Vale de Cambra",
+    "Origin": "Circular | Vale de Cambra",
+    "Destination": "Circular | Vale de Cambra",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1610",
+    "Name": "163 | Ervedoso - Vale de Cambra (CCT) (via Paraduça)",
+    "Origin": "Ervedoso (via Paraduça)",
+    "Destination": "Vale de Cambra (CCT) (via Paraduça)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1611",
+    "Name": "164 | Arões - Vale de Cambra (CCT)",
+    "Origin": "Arões",
+    "Destination": "Vale de Cambra (CCT)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1612",
+    "Name": "165 | Junqueira - Vale de Cambra (CCT) (via Sra. da Saúde)",
+    "Origin": "Junqueira (via Sra. da Saúde)",
+    "Destination": "Vale de Cambra (CCT) (via Sra. da Saúde)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "1613",
+    "Name": "166 | Vale de Cambra (CCT) - Rossio (Zona Industrial) (via Póvoa)",
+    "Origin": " Vale de Cambra (CCT) (via Póvoa)",
+    "Destination": "Rossio (Zona Industrial) (via Póvoa)",
+    "Municipality": "Vale De Cambra",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2001",
+    "Name": "Lázaro - Lourosa/Fiães (Interface) (via Esc. de Escariz)",
+    "Origin": "Lázaro (via Esc. de Escariz)",
+    "Destination": "Lourosa/Fiães (Interface) (via Esc. de Escariz)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2002",
+    "Name": "Rio Meão - Sandim (Mosteiro) Via Esc. Paços de Brandão",
+    "Origin": "Rio Meão",
+    "Destination": "Sandim (Mosteiro)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2003",
+    "Name": "S. Maria da Feira (Zona Comercial) - Mosteirô",
+    "Origin": "S. Maria da Feira (Zona Comercial)",
+    "Destination": "Mosteirô",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2004",
+    "Name": "Mozelos - Fiães (Escola) (via Paços de Brandão)",
+    "Origin": "Mozelos",
+    "Destination": "Fiães (Escola) (via Paços de Brandão)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2005",
+    "Name": "S. Maria da Feira (Escolas) - Mota",
+    "Origin": "S. Maria da Feira (Escolas)",
+    "Destination": "Mota",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2006",
+    "Name": "Valada - S. Maria da Feira (Esc. Paços de Brandão)",
+    "Origin": "Valada",
+    "Destination": "S. Maria Feira (Esc. Paços de Brandão)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2007",
+    "Name": "Fiães (Escola) - Espinho (Hospital) (via Largo da Feira)",
+    "Origin": "Fiães (Escola)",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2008",
+    "Name": "Circular | Canedo",
+    "Origin": "Circular | Canedo",
+    "Destination": "",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2009",
+    "Name": "Circular | Canedo",
+    "Origin": "Circular | Canedo",
+    "Destination": "",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2010",
+    "Name": "Pigeiros - Lourosa/Fiães (Interface)",
+    "Origin": "Pigeiros",
+    "Destination": "Lourosa/Fiães (Interface)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2011",
+    "Name": "S. Maria da Feira (Escolas) - Argoncilhe (Escola)",
+    "Origin": "S. Maria da Feira (Escolas)",
+    "Destination": "Argoncilhe (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2012",
+    "Name": "Argoncilhe (Escola) - Lever",
+    "Origin": "Argoncilhe (Escola)",
+    "Destination": "Lever",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2013",
+    "Name": "Castelo de Paiva (Centro) - Espinho (Hospital)",
+    "Origin": "Castelo de Paiva (Centro)",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2014",
+    "Name": "S. Maria da Feira (Souto) - S. Maria da Feira (Hospital) (via Travanca)",
+    "Origin": "S. Maria da Feira (Souto) ",
+    "Destination": "S. Maria da Feira (Hospital) (via Travanca)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2015",
+    "Name": "S. Maria da Feira (Souto) - S. Maria da Feira (Hospital) (via Matos)",
+    "Origin": "S. Maria da Feira (Souto) ",
+    "Destination": "S. Maria da Feira (Hospital) (via Matos)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2016",
+    "Name": "Circular | Lourosa/Fiães (Interface)",
+    "Origin": "Circular | Lourosa/Fiães (Interface)",
+    "Destination": "",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2017",
+    "Name": "Circular | Lourosa/Fiães (Interface)",
+    "Origin": "Circular | Lourosa/Fiães (Interface)",
+    "Destination": "",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2018",
+    "Name": "Rebordelo - Lourosa/Fiães (Interface) (via Vale)",
+    "Origin": "Rebordelo (via Vale)",
+    "Destination": "Lourosa/Fiães (Interface) (via Vale)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2019",
+    "Name": "S. Maria da Feira (Zona Comercial) - Lourosa/Fiães (Interface)",
+    "Origin": "S. Maria da Feira (Zona Comercial) ",
+    "Destination": "SMFeira (Interface Lourosa/Fiães)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2020",
+    "Name": "Circular | Canedo (Escola) (via Vila Maior)",
+    "Origin": "Canedo (Escola) (via Vila Maior)",
+    "Destination": "Canedo (Escola) (via Vila Maior)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2021",
+    "Name": "S. João da Madeira (CCT) - Canedo (Escola) (via Caldas de S. Jorge)",
+    "Origin": "S. João da Madeira (CCT)",
+    "Destination": "Canedo (Escola) (via Caldas de S. Jorge)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2022",
+    "Name": "Milheirós de Poiares - Pigeiros",
+    "Origin": "Milheirós de Poiares",
+    "Destination": "Pigeiros",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2023",
+    "Name": "Mozelos â Lourosa (Escola) (via Suil Park)",
+    "Origin": "Mozelos",
+    "Destination": "Lourosa (Escola) (via Suil Park)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2024",
+    "Name": "Argoncilhe (Escola) - Espinho (Hospital)",
+    "Origin": "Argoncilhe (Escola)",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2026",
+    "Name": "S. João da Madeira (CCT) - Parque das Camélias (pela A1)",
+    "Origin": "S. João da Madeira (CCT) (pela A1)",
+    "Destination": "Parque das Camélias (pela A1)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2027",
+    "Name": "S. Maria da Feira (Zona Comercial) - Nogueira da Regedoura",
+    "Origin": "S. Maria da Feira (Zona Comerical)",
+    "Destination": "Nogueira da Regedoura",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2028",
+    "Name": "Carrascal - Espinho (Hospital)",
+    "Origin": "Carrascal",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2029",
+    "Name": "S. Maria da Feira (Centro) - Carvalhos (Esc. Padre António Luís Moreira)",
+    "Origin": "S. Maria da Feira (Centro)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2030",
+    "Name": "Ovar (Arada) - Espinho (Hospital)",
+    "Origin": "Ovar (Arada)",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2031",
+    "Name": "S. M. Feira (Zona Comercial) - Espinho (Hospital)",
+    "Origin": "S. M. Feira (Zona Comercial)",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2032",
+    "Name": "Lamas - Sandim",
+    "Origin": "Lamas",
+    "Destination": "Sandim",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2033",
+    "Name": "Lamas - Espinho (Hospital) (via Anta)",
+    "Origin": "Lamas (via Anta)",
+    "Destination": "Espinho (Hospital) (via Anta)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2034",
+    "Name": "Cabeçais - S. João da Madeira (CCT)",
+    "Origin": "Cabeçais",
+    "Destination": "S. João da Madeira (CCT)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2035",
+    "Name": "S. João da Madeira (CCT) - Pessegueiro do Vale",
+    "Origin": "São João da Madeira (CCT)",
+    "Destination": "Pessegueiro do Vale",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2036",
+    "Name": "S. João da Madeira (CCT) - Ovar (Estação) (por S. Maria da Feira)",
+    "Origin": "S. João da Madeira (CCT) (por S. Maria da Feira)",
+    "Destination": "Ovar (Estação) (por S. Maria da Feira)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2037",
+    "Name": "S. Maria da Feira (Souto) - S. Maria da Feira (Biblioteca) (via Travanca)",
+    "Origin": "S. Maria da Feira (Souto) (via Travanca)",
+    "Destination": "S. Maria da Feira (Biblioteca) (via Travanca)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2038",
+    "Name": "S. Maria da Feira (Souto) - S. Maria da Feira (Biblioteca) (via Mosteirô)",
+    "Origin": "S. Maria da Feira (Souto) (via Mosteirô)",
+    "Destination": "S. Maria da Feira (Biblioteca) (via Mosteirô)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2040",
+    "Name": "S. João da Madeira (CCT) - S. Maria da Feira (Hospital) (via Mosteirô Z.I.)",
+    "Origin": "S. João da Madeira (CCT) (via Mosteirô Z.I.)",
+    "Destination": "S. Maria da Feira (Hospital) (via Mosteirô Z.I.)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2041",
+    "Name": "Mosteirô - Cavaco",
+    "Origin": "Mosteirô",
+    "Destination": "Cavaco",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2042",
+    "Name": "Cavaco - Lamas",
+    "Origin": "Cavaco",
+    "Destination": "Lamas",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2043",
+    "Name": "Monte Grande (Zona Industrial) - Espinho (Hospital)",
+    "Origin": "Monte Grande (Zona Industrial) ",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2044",
+    "Name": "Areias - Corga (Escola) (via Lameiras)",
+    "Origin": "Areias",
+    "Destination": "Corga (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2045",
+    "Name": "Guisande - Lourosa/Fiães (Interface)",
+    "Origin": "Guisande",
+    "Destination": "Lourosa/Fiães (Interface)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2046",
+    "Name": "S. Maria da Feira (Zona Comercial) - Boavista (Casa da Musica) (pela A1)",
+    "Origin": "S. Maria da Feira (Zona Comercial (pela A1)",
+    "Destination": "Boavista (Casa da Musica) (pela A1)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2047",
+    "Name": "S. Maria da Feira (Zona Comercial) - Cortegaça",
+    "Origin": "S. Maria da Feira (Zona Comercial)",
+    "Destination": "Cortegaça",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2048",
+    "Name": "Cabeçais - Lourosa/Fiães (Interface)",
+    "Origin": "Cabeçais",
+    "Destination": "Lourosa/Fiães (Interface)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2049",
+    "Name": "Lourosa/Fiães (Interface) - Argoncilhe (Escola)",
+    "Origin": "Lourosa/Fiães (Interface)",
+    "Destination": "Argoncilhe (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2050",
+    "Name": "Mota - Canedo (Escola)",
+    "Origin": "Mota",
+    "Destination": "Canedo (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2051",
+    "Name": "Argoncilhe (Escola) - Vendas de Grijó",
+    "Origin": "Argoncilhe (Escola)",
+    "Destination": "Vendas de Grijó",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2052",
+    "Name": "Argoncilhe - Espinho (Hospital)",
+    "Origin": "Argoncilhe",
+    "Destination": "Espinho (Hospital)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2053",
+    "Name": "Duas Igrejas - Milheirós de Poiares",
+    "Origin": "Duas Igrejas",
+    "Destination": "Milheirós de Poiares",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2054",
+    "Name": "Circular | S. Maria da Feira (Zona Comercial) (via Europarque)",
+    "Origin": "Circular | S. M. Feira (Z. Comercial) (via Europarque)",
+    "Destination": "",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2056",
+    "Name": "Romariz - S. Maria da Feira (Hospital) (via Milheirós de Poiares)",
+    "Origin": "Romariz (via Milheirós de Poiares)",
+    "Destination": "S. Maria da Feira (Hospital) (via Milheirós de Poiares)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2057",
+    "Name": "Fiães (Escola) - Argoncilhe (Escola)",
+    "Origin": "Fiães (Escola)",
+    "Destination": "Argoncilhe (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2058",
+    "Name": "Canedo (Escola) - Fiães (Escola)",
+    "Origin": "Canedo (Escola)",
+    "Destination": "Fiães (Escola)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2059",
+    "Name": "Aveiro (Universidade) - S. Maria da Feira (Zona Comercial) (via ESAN)",
+    "Origin": "Aveiro (Universidade) (via ESAN)",
+    "Destination": "S. Maria da Feira (Zona Comercial) (via ESAN)",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "2100",
+    "Name": "Circular | Transfeira",
+    "Origin": "Circular | Transfeira",
+    "Destination": "Circular | Transfeira",
+    "Municipality": "Santa Maria Da Feira",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3001",
+    "Name": "Paranho - Portas Fronhas (Metro) (via Travassos)",
+    "Origin": "Paranho (via Travassos)",
+    "Destination": "Portas Fronhas (Metro) (via Travassos)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3002",
+    "Name": "Agra - Portas Fronhas (Metro) (via Giesteira)",
+    "Origin": "Agra (via Giesteira)",
+    "Destination": "Portas Fronhas (Metro) (via Giesteira)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3003",
+    "Name": "Balazar - Portas Fronhas (Metro) (via Guardães)",
+    "Origin": "Balazar (via Guardães)",
+    "Destination": "Portas Fronhas (Metro) (via Guardães)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3004",
+    "Name": "Balazar - Portas Fronhas (Metro) (via Águas Férreas)",
+    "Origin": "Balazar (via Águas Férreas)",
+    "Destination": "Portas Fronhas (Metro) (via Águas Férreas)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3005",
+    "Name": "Águas Férreas - Portas Fronhas (Metro) (via Barranha)",
+    "Origin": "Águas Férreas (via Barranha)",
+    "Destination": "Portas Fronhas (Metro) (via Barranha)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3006",
+    "Name": "Esposende (CCT) - Portas Fronhas (Metro) (via Aguçadora)",
+    "Origin": "Esposende (CCT) (via Aguçadora)",
+    "Destination": "Portas Fronhas (Metro) (via Aguçadora)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3301",
+    "Name": "Aguçadoura - Vila do Conde (Metro)",
+    "Origin": "Aguçadoura",
+    "Destination": "Vila do Conde (Metro)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3302",
+    "Name": "Amorim (Zona Industrial) - Areia / Varziela (Metro)",
+    "Origin": "Amorim (Zona Industrial)",
+    "Destination": "Areia / Varziela (Metro)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3304",
+    "Name": "Circular | Póvoa de Varzim",
+    "Origin": "Circular | Póvoa de Varzim",
+    "Destination": "Circular | Póvoa de Varzim",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3305",
+    "Name": "Circular | Póvoa de Varzim",
+    "Origin": "Circular | Póvoa de Varzim",
+    "Destination": "",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3306",
+    "Name": "Circular | Vila do Conde",
+    "Origin": "Circular | Vila do Conde",
+    "Destination": "",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3308",
+    "Name": "Póvoa de Varzim (CCT) - Vila do Conde (Centro)",
+    "Origin": "Póvoa de Varzim (CCT)",
+    "Destination": "Vila do Conde (Centro)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3309",
+    "Name": "Póvoa de Varzim (CCT) - Vila do Conde (Centro) (via Escolas)",
+    "Origin": "Póvoa de Varzim (CCT) (via Escolas)",
+    "Destination": "Vila do Conde (Centro) (via Escolas)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3501",
+    "Name": "Tougues - Vila do Conde (Centro) (via Retorta)",
+    "Origin": "Tougues (via Retorta)",
+    "Destination": "Vila do Conde (Centro) (via Retorta)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3502",
+    "Name": "Tougues - Vila do Conde (Escolas) (via Azurara)",
+    "Origin": "Tougues (via Azurara)",
+    "Destination": "Vila do Conde (Escolas) (via Azurara)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3503",
+    "Name": "Póvoa de Varzim (CCT) - Hospital São João",
+    "Origin": "Póvoa de Varzim (CCT)",
+    "Destination": "Hospital São João",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3504",
+    "Name": "Santo Tirso (ERF) - Póvoa de Varzim (CCT)",
+    "Origin": "Santo Tirso (ERF)",
+    "Destination": "Póvoa de Varzim (CCT)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3505",
+    "Name": "Famalicão (CCT) - Vila do Conde (Centro)",
+    "Origin": "Famalicão (CCT)",
+    "Destination": "Vila do Conde (Centro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3506",
+    "Name": "Vila do Conde (Centro) - Maia (Centro)",
+    "Origin": "Vila do Conde (Centro)",
+    "Destination": "Maia (Centro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3507",
+    "Name": "Famalicão (CCT) - Vila do Conde (Centro) (via Escolas)",
+    "Origin": "Famalicão (CCT) (via Escolas)",
+    "Destination": "Vila do Conde (Centro) (via Escolas)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3508",
+    "Name": "Vila do Conde (Centro) - Vilar do Pinheiro (Metro)",
+    "Origin": "Vila do Conde (Centro)",
+    "Destination": "Vilar do Pinheiro (Metro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3509",
+    "Name": "Vila do Conde (Centro) - Guilhabreu (via Vilarinho)",
+    "Origin": "Vila do Conde (Centro) (via Vilarinho)",
+    "Destination": "Guilhabreu (via Vilarinho)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3510",
+    "Name": "Vila do Conde (Centro) - Vilar do Pinheiro (Metro) (via Praia de Mindelo)",
+    "Origin": "Vila do Conde (Centro) (via Praia de Mindelo)",
+    "Destination": "Vilar do Pinheiro (Metro) (via Praia de Mindelo)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3511",
+    "Name": "Outeiro Maior - Vila do Conde (Escolas)",
+    "Origin": "Outeiro Maior",
+    "Destination": "Vila do Conde (Escolas)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3512",
+    "Name": "Mindelo (Escola) - Arões",
+    "Origin": "Mindelo (Escola)",
+    "Destination": "Arões",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3513",
+    "Name": "Vila do Conde (Escolas) - Vilar do Pinheiro (via Vairão)",
+    "Origin": "Vila do Conde (Escolas) (via Vairão)",
+    "Destination": "Vilar do Pinheiro (via Vairão)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3514",
+    "Name": "Junqueira - Vila do Conde (Escolas) (via Seixo)",
+    "Origin": "Junqueira (via Seixo)",
+    "Destination": "Vila do Conde (Escolas) (via Seixo)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3516",
+    "Name": "Parada - Vila do Conde (Escolas) (via Corvos)",
+    "Origin": "Parada (via Corvos)",
+    "Destination": "Vila do Conde (Escolas) (via Corvos)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3517",
+    "Name": "Fontaínhas - Vila do Conde (Escolas) (via Junqueira)",
+    "Origin": "Fontaínhas (via Junqueira)",
+    "Destination": "Vila do Conde (Escolas) (via Junqueira)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3518",
+    "Name": "Mindelo (Escola) - Vilar do Pinheiro (Metro) (via Carvalhido)",
+    "Origin": "Mindelo (Escola) (via Carvalhido)",
+    "Destination": "Vilar do Pinheiro (Metro) (via Carvalhido)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3519",
+    "Name": "Vila de Conde (Centro) - Guilhabreu (via Fajozes)",
+    "Origin": "Vila do Conde (Centro)  (via Fajozes)",
+    "Destination": "Guilhabreu (via Fajozes)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3521",
+    "Name": "Ferreiró - Vila do Conde (Escolas)",
+    "Origin": "Ferreiró",
+    "Destination": "Vila do Conde (Escolas)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3523",
+    "Name": "Ribeirinha (Escola) - Vilar do Pinheiro (Metro) (via Malta)",
+    "Origin": "Ribeirinha (Escola) (via Malta)",
+    "Destination": "Vilar do Pinheiro (Metro) (via Malta)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3524",
+    "Name": "Fornelo - Vila do Conde (Centro)",
+    "Origin": "Fornelo",
+    "Destination": "Vila do Conde (Centro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3525",
+    "Name": "Ribeirinha (Escola) - Varziela (Zona Industrial) (via Tresval)",
+    "Origin": "Ribeirinha (Escola) (via Tresval)",
+    "Destination": "Varziela (Zona Industrial) (via Tresval)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3528",
+    "Name": "Ribeirinha (Escola) - Vila do Conde (Escolas) (via Junqueira)",
+    "Origin": "Ribeirinha (Escola) (via Junqueira)",
+    "Destination": "Vila do Conde (Escolas) (via Junqueira)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3529",
+    "Name": "Souto da Sapateira - Vila Chã (via Modivas Centro Metro)",
+    "Origin": "Souto da Sapateira (via Modivas Centro Metro)",
+    "Destination": " Vila Chã (via Modivas Centro Metro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3530",
+    "Name": "Modivas Centro (Metro) - Gião (via EN306)",
+    "Origin": "Modivas Centro (Metro) (via EN306)",
+    "Destination": "Gião (via EN306)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3531",
+    "Name": "Fashion Outlet (Metro) - Modivas Sul (Metro) (via Vila Chã e Praia de Labruge)",
+    "Origin": "Fashion Outlet (Metro) (via Vila Chã e Praia de Labruge)",
+    "Destination": "Modivas Sul (Metro) (via Vila Chã e Praia de Labruge)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3532",
+    "Name": "Guilhabreu - Modivas Sul (Metro)",
+    "Origin": "Guilhabreu",
+    "Destination": "Modivas Sul (Metro)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3533",
+    "Name": "Vairão - Mindelo (Praia)",
+    "Origin": "Vairão",
+    "Destination": "Mindelo (Praia)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3534",
+    "Name": "Vila do Conde (Centro) - Maia (Centro) (via Escolas do Castêlo)",
+    "Origin": "Vila do Conde (Centro) (via Escolas do Castêlo)",
+    "Destination": "Maia (Centro) (via Escolas do Castêlo)",
+    "Municipality": "Vila Do Conde",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "3535",
+    "Name": "Póvoa de Varzim (CCT) - Campanhã (Estação) (via Vila do Conde, Aeroporto e Polo Universitário)",
+    "Origin": "Póvoa de Varzim (CCT)",
+    "Destination": "Campanhã (Estação)",
+    "Municipality": "PãVoa De Varzim",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5001",
+    "Name": "Perafita (Bairro Caçadores) - Sete Bicas (Metro) (via Angeiras)",
+    "Origin": "Perafita (Bairro Caçadores) (via Angeiras)",
+    "Destination": "Sete Bicas (Metro) (via Angeiras)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5002",
+    "Name": "Leça (Zona Comercial) - Polo Universitário (via Custóias)",
+    "Origin": "Leça (Zona Comercial) (via Custóias)",
+    "Destination": "Polo Universitário (via Custóias)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5003",
+    "Name": "MAR Shopping - Estádio do Dragão (via Anémona)",
+    "Origin": "MAR Shopping (via Anémona)",
+    "Destination": "Estádio do Dragão (via Anémona)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5004",
+    "Name": "Paiço - Sete Bicas (Metro)",
+    "Origin": "Paiço",
+    "Destination": "Sete Bicas",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5005",
+    "Name": "Circular | Matosinhos (Câmara) (via Monte Xisto)",
+    "Origin": "Circular | Matosinhos (Câmara) (via Monte Xisto)",
+    "Destination": "Circular | Matosinhos (Câmara) (via Monte Xisto)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5006",
+    "Name": "Circular | Matosinhos (Câmara) (via Guifões)",
+    "Origin": "Circular | Matosinhos (Câmara) (via Guifões)",
+    "Destination": "Circular | Matosinhos (Câmara) (via Guifões)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5007",
+    "Name": "Circular | Matosinhos (Mercado) (via Biquinha)",
+    "Origin": "Circular | Matosinhos (Mercado) (via Biquinha)",
+    "Destination": "Circular | Matosinhos (Mercado) (via Biquinha)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5008",
+    "Name": "Circular | Matosinhos (Mercado) (via Seara)",
+    "Origin": "Circular | Matosinhos (Mercado) (via Seara)",
+    "Destination": "Circular | Matosinhos (Mercado) (via Seara)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5009",
+    "Name": "Pampelido - Hospital Pedro Hispano (via MAR Shopping)",
+    "Origin": "Pampelido (via MAR Shopping)",
+    "Destination": "Hospital Pedro Hispano (via MAR Shopping)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5010",
+    "Name": "MaiaShopping - Matosinhos (Mercado) (via Ermesinde)",
+    "Origin": " MaiaShopping (via Ermesinde)",
+    "Destination": "Matosinhos (Mercado) (via Ermesinde)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5011",
+    "Name": "Valongo (Estação) - Matosinhos (Mercado)",
+    "Origin": "Valongo (Estação)",
+    "Destination": "Matosinhos (Mercado)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5012",
+    "Name": "Freixieiro (Ribeiras) - Senhora da Hora (Metro)",
+    "Origin": "Freixieiro (Ribeiras)",
+    "Destination": "Senhora da Hora (Metro)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5013",
+    "Name": "Aeroporto (Botica Metro) - Guifões",
+    "Origin": "Aeroporto (Botica Metro) ",
+    "Destination": "Guifões",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5014",
+    "Name": "Perafita - Gatões (via Feira da Senhora da Hora)",
+    "Origin": "Perafita (via Feira da Senhora da Hora)",
+    "Destination": "Gatões (via Feira da Senhora da Hora)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5015",
+    "Name": "Ponte Moreira - Matosinhos (Mercado) (via Padrão da Légua)",
+    "Origin": "Ponte Moreira (via Padrão da Légua)",
+    "Destination": "Matosinhos (Mercado) (via Padrão da Légua)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5016",
+    "Name": "Paiço - Matosinhos (Câmara)",
+    "Origin": "Paiço",
+    "Destination": "Matosinhos (Câmara)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5017",
+    "Name": "Leça (Marginal) - Estádio do Dragão",
+    "Origin": "Leça (Marginal)",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5018",
+    "Name": "Angeiras - Senhora da Hora (Metro) (via MAR Shopping)",
+    "Origin": "Angeiras (via MAR Shopping)",
+    "Destination": "Senhora da Hora (Metro) (via MAR Shopping)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5019",
+    "Name": "Vilar do Pinheiro (Metro) - Lavra (via Angeiras)",
+    "Origin": "Vilar do Pinheiro (Metro)",
+    "Destination": "Lavra (via Angeiras)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5020",
+    "Name": "Aeroporto - Agudela",
+    "Origin": "Maia (Aeroporto)",
+    "Destination": "Agudela",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5021",
+    "Name": "Aeroporto (Botica Metro) - Sete Bicas (Metro) (via Senhora da Hora)",
+    "Origin": "Aeroporto (Botica Metro) (via Senhora da Hora)",
+    "Destination": "Sete Bicas (Metro) (via Senhora da Hora)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5022",
+    "Name": "Paiço - Aeroporto",
+    "Origin": "Paiço",
+    "Destination": "Aeroporto",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5023",
+    "Name": "Matosinhos (Câmara) - Maia (Fórum) (via Leça do Balio)",
+    "Origin": "Matosinhos (Câmara) (via Leça do Balio)",
+    "Destination": "Maia (Fórum) (via Leça do Balio)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5024",
+    "Name": "Lionesa - Boavista (Casa da Música)",
+    "Origin": "Lionesa",
+    "Destination": "Boavista (Casa da Música)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5101",
+    "Name": " Lavra (Cabanelas) - Sete Bicas (Metro)",
+    "Origin": " Lavra (Cabanelas)",
+    "Destination": "Sete Bicas (Metro)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5102",
+    "Name": "Noturna | Aeroporto (Botica Metro) - Padrão da Légua",
+    "Origin": "Aeroporto (Botica Metro)",
+    "Destination": "Padrão da Légua",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5103",
+    "Name": "Noturna | MAR Shopping - Polo Universitário",
+    "Origin": "MAR Shopping",
+    "Destination": "Polo Universitário",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "5104",
+    "Name": "Noturna | Valongo (Estação) - Matosinhos (Mercado) (via Ermesinde)",
+    "Origin": "Valongo (Estação) (via Ermesinde)",
+    "Destination": "Matosinhos (Mercado) (via Ermesinde)",
+    "Municipality": "Matosinhos",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6001",
+    "Name": "Frejufe - Maia (Centro) (via Catassol)",
+    "Origin": "Frejufe (via Catassol)",
+    "Destination": "Maia (Centro) (via Catassol)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6003",
+    "Name": "Circular | Maia (Fórum) (via Lionesa)",
+    "Origin": "Circular | Maia (Fórum) (via Lionesa)",
+    "Destination": "Circular | Maia (Fórum) (via Lionesa)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6004",
+    "Name": "Circular | Maia (Fórum) (via Zona Industrial)",
+    "Origin": "Circular | Maia (Fórum) (via Zona Industrial)",
+    "Destination": "Circular | Maia (Fórum) (via Zona Industrial)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6005",
+    "Name": "Maia (Jardiland) - Hospital São João (via Maia Shopping)",
+    "Origin": "Maia (Jardiland)",
+    "Destination": "Hospital São João",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6006",
+    "Name": "Nogueira (Av. Primavera) - Maia (Centro) (via Milheirós)",
+    "Origin": "Nogueira (Av. Primavera) (via Milheirós)",
+    "Destination": "Maia (Centro) (via Milheirós)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6007",
+    "Name": "S. Pedro de Avioso - Ermesinde (Estação) (via Esc. Castêlo da Maia)",
+    "Origin": "S. Pedro de Avioso (via Esc. Castêlo da Maia)",
+    "Destination": "Ermesinde (Estação) (via Esc. Castêlo da Maia)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6008",
+    "Name": "S. Romão (Escola) - Aeroporto (via Maia Shopping)",
+    "Origin": "S. Romão (Escola) (via Maia Shopping)",
+    "Destination": "Aeroporto (via Maia Shopping)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6009",
+    "Name": "Vila Nova da Telha - Maia (Centro) (via Esc. Castêlo da Maia)",
+    "Origin": "Vila Nova da Telha",
+    "Destination": "Maia (Centro)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6010",
+    "Name": "Alto de Rindo - Maia (Centro) (via Esc. Castêlo da Maia)",
+    "Origin": "Alto de Rindo (via Esc. Castêlo da Maia)",
+    "Destination": "Maia (Centro) (via Esc. Castêlo da Maia)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6011",
+    "Name": "Vilar da Luz - Hospital São João (via Esc. S. Romão)",
+    "Origin": "Vilar da Luz",
+    "Destination": "Hospital São João",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6012",
+    "Name": "Areosa - TECMaia (via Maia)",
+    "Origin": "Areosa (via Maia)",
+    "Destination": "TECMaia (via Maia)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6013",
+    "Name": "Alfena (Escola) - Maia (Centro)",
+    "Origin": "Alfena (Escola)",
+    "Destination": "Maia (Centro)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6014",
+    "Name": "Vilar da Luz (Aeródromo) - Maia (Jardiland)",
+    "Origin": "Vilar da Luz (Aeródromo)",
+    "Destination": "Maia (Jardiland)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6015",
+    "Name": "Folgosa (Igreja) - Nogueira (Escola) (via Ardegães)",
+    "Origin": "Folgosa (Igreja) (via Ardegães)",
+    "Destination": "Nogueira (Escola) (via Ardegães)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6016",
+    "Name": "Vilar de Luz - Castêlo da Maia (Escolas)",
+    "Origin": "Vilar de Luz ",
+    "Destination": "Castêlo da Maia (Escolas)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6017",
+    "Name": "Maia (Centro) - Ermesinde (Estação)",
+    "Origin": "Maia (Centro)",
+    "Destination": "Ermesinde (Estação)",
+    "Municipality": "Maia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6301",
+    "Name": "Paradela - Souto da Sapateira (via Cidoi)",
+    "Origin": "Paradela (via Cidoi)",
+    "Destination": "Souto da Sapateira (via Cidoi)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6302",
+    "Name": "Alvarelhos (Escola) - Souto da Sapateira (via Gueidãos)",
+    "Origin": "Alvarelhos (Escola) ",
+    "Destination": "Souto da Sapateira (via Gueidãos)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6303",
+    "Name": "Paradela - Souto da Sapateira (via Guidões)",
+    "Origin": "Paradela (via Guidões)",
+    "Destination": "Souto da Sapateira (via Guidões)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6304",
+    "Name": "Trofa (Interface) - Fornelo (via Lantemil)",
+    "Origin": "Trofa (Interface)",
+    "Destination": "Fornelo (via Lantemil)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6305",
+    "Name": "Trofa (Interface) - Polo Universitário (via EN14)",
+    "Origin": "Trofa (Interface) (via EN14)",
+    "Destination": "Polo Universitário (via EN14)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6306",
+    "Name": "Santo Tirso (ERF) - ISMAI",
+    "Origin": "Santo Tirso (ERF)",
+    "Destination": "ISMAI",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6307",
+    "Name": "Santo Tirso (ERF) - Alvarelhos (via Bicho)",
+    "Origin": "Santo Tirso (ERF) (via Bicho)",
+    "Destination": "Alvarelhos (via Bicho)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6308",
+    "Name": "Trofa (Interface) - Trinaterra (via S. Romão Escola)",
+    "Origin": "Trofa (Interface) (via S. Romão Escola)",
+    "Destination": "Trinaterra (via S. Romão Escola)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6310",
+    "Name": "Trofa (Interface) - S. Romão (Escola) (via EN14)",
+    "Origin": "Trofa (Interface) (via EN14)",
+    "Destination": "S. Romão (Escola) (via EN14)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6311",
+    "Name": "Circular | Trofa (Interface) (via Pateiras)",
+    "Origin": "Circular | Trofa (Interface) (via Pateiras)",
+    "Destination": "Circular | Trofa (Interface) (via Pateiras)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6312",
+    "Name": "Circular | Trofa (Interface) (via Hospital)",
+    "Origin": "Circular | Trofa (Interface) (via Hospital)",
+    "Destination": "Circular | Trofa (Interface) (via Hospital)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6313",
+    "Name": "Famalicão (CCT) - Polo Universitário (via EN14)",
+    "Origin": "Famalicão (CCT) (via EN14)",
+    "Destination": "Polo Universitário (via EN14)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6314",
+    "Name": "Cêpa - Lantemil (Zona Industrial)",
+    "Origin": "Cêpa",
+    "Destination": "Lantemil (Zona Industrial)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6315",
+    "Name": "Santo Tirso (ER) - Guidões (Zona Industrial)",
+    "Origin": "Santo Tirso (ER)",
+    "Destination": "Guidões (Zona Industrial) ",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6316",
+    "Name": "Trofa (Interface) - Polo Universitário (pela A3)",
+    "Origin": "Trofa (Interface) (pela A3)",
+    "Destination": "Polo Universitário (pela A3)",
+    "Municipality": "Trofa",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6601",
+    "Name": "Santo Tirso (ERF) - Polo Universitário (pela A3)",
+    "Origin": "Santo Tirso (ERF) (pela A3)",
+    "Destination": "Polo Universitário (pela A3)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6602",
+    "Name": "Santo Tirso (ER) - Paços de Ferreira (via Redundo)",
+    "Origin": "Santo Tirso (ER) (via Redundo) ",
+    "Destination": "Monte Córdova (via Redundo) ",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6603",
+    "Name": "Santo Tirso (ERF) - Polo Universitário (via Agrela) (pela N105)",
+    "Origin": "Santo Tirso (ERF) (via Agrela) (pela N105)",
+    "Destination": "Polo Universitário (via Agrela) (pela N105)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6604",
+    "Name": "Santo Tirso (ERF) - Agrela (via Reguenga)",
+    "Origin": "Santo Tirso (ERF) (via Reguenga)",
+    "Destination": "Agrela (via Reguenga)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6605",
+    "Name": "Santo Tirso (ERF) - Água Longa (via Refojos)",
+    "Origin": "Santo Tirso (ERF) (via Refojos)",
+    "Destination": "Água Longa (via Refojos)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6606",
+    "Name": "Guimarei - Agrela (Escola)",
+    "Origin": "Guimarei",
+    "Destination": "Agrela (Escola)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6607",
+    "Name": "Freamunde (Centro) - INA",
+    "Origin": "Freamunde (Centro)",
+    "Destination": "INA",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6608",
+    "Name": "Santo Tirso (ERF) - Guimarei (via Lamelas)",
+    "Origin": "Santo Tirso (ERF) (via Lamelas)",
+    "Destination": "Guimarei (via Lamelas)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6609",
+    "Name": "Santo Tirso (ER) - Raimonda (via Esc. Aves)",
+    "Origin": "Santo Tirso (ER) (via Esc. Aves)",
+    "Destination": "Raimonda (via Esc. Aves)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6610",
+    "Name": "Vila das Aves (ERF) - Raimonda (via Lordelo Guimarães)",
+    "Origin": "Vila das Aves (ERF) (via Lordelo Guimarães)",
+    "Destination": "Raimonda (via Lordelo Guimarães)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6611",
+    "Name": "Vale Pisão - Agrela (Escola)",
+    "Origin": "Vale Pisão",
+    "Destination": "Agrela (Escola)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6612",
+    "Name": "S. Martinho - Lousada (Esc. Lustosa)",
+    "Origin": "S. Martinho",
+    "Destination": "Lousada (Esc. Lustosa)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6613",
+    "Name": "Lousada (Centro) - Polo Universitário (pela A3)",
+    "Origin": "Lousada (Centro) (pela A3)",
+    "Destination": "Polo Universitário (pela A3)",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "6614",
+    "Name": "ARTAVE - Água Longa",
+    "Origin": "ARTAVE",
+    "Destination": "Água Longa",
+    "Municipality": "Santo Tirso",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7001",
+    "Name": "Valongo (Centro) - TECMaia (via Maia)",
+    "Origin": "Valongo (Centro) (via Maia)",
+    "Destination": "TECMaia (via Maia)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7002",
+    "Name": "Alfena (Ogueiros) - Valongo (Biblioteca)",
+    "Origin": "Alfena (Ogueiros)",
+    "Destination": "Valongo (Biblioteca)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7003",
+    "Name": "Sobrado de Cima - Quinta da Lousa",
+    "Origin": "Codiceira",
+    "Destination": "Quinta da Lousa",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7004",
+    "Name": "Sobrado (Ponte Açude) - Polo Universitário (via Formiga / Santa Rita)",
+    "Origin": "Sobrado (Ponte Açude) (via Formiga / Santa Rita)",
+    "Destination": "Polo Universitário (via Formiga / Santa Rita)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7005",
+    "Name": "Penafiel (Esc. Secundária) - Susão (Estação)",
+    "Origin": "Penafiel (Esc. Secundária)",
+    "Destination": "Susão (Estação)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7006",
+    "Name": "Sobrado de Cima - Valongo (Biblioteca) (via Estádio do Sobrado)",
+    "Origin": "Sobrado de Cima (via Estádio do Sobrado)",
+    "Destination": "Valongo (Biblioteca) (via Estádio do Sobrado)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7007",
+    "Name": "Penafiel (Esc. Sedundária) - Polo Universitário (pela A4 Valongo)",
+    "Origin": "Penafiel (Esc. Secundária) (pela A4 Valongo)",
+    "Destination": "Polo Universitário (pela A4 Valongo)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7008",
+    "Name": "Lordelo (Igreja) - Polo Universitário (pela A4)",
+    "Origin": "Lordelo (Igreja) (pela A4)",
+    "Destination": "Polo Universitário (pela A4)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7009",
+    "Name": "Gandra (CESPU) - Estádio do Dragão",
+    "Origin": "Gandra (CESPU)",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7010",
+    "Name": "Gandra (CESPU) - Valongo (João de Castro) (via Retorta)",
+    "Origin": "Gandra (CESPU)",
+    "Destination": "Valongo (João de Castro) (via Retorta)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7011",
+    "Name": "Campo (Padre Américo) - Ermesinde (Estação)",
+    "Origin": "Campo (Padre Américo)",
+    "Destination": "Ermesinde (Estação)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7012",
+    "Name": "Circular | Ermesinde (Estação)",
+    "Origin": "Circular | Ermesinde (Estação)",
+    "Destination": "",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7013",
+    "Name": "Circular | Ermesinde (Estação)",
+    "Origin": "Circular | Ermesinde (Estação)",
+    "Destination": "",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7014",
+    "Name": "Sobrado de Cima - Ermesinde (Estação) (via Valongo)",
+    "Origin": "Sobrado de Cima",
+    "Destination": "Ermesinde (Estação) (via Valongo)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7015",
+    "Name": "Campo (Retorta) - Susão (Estação)",
+    "Origin": "Campo (Retorta)",
+    "Destination": "Susão (Estação)",
+    "Municipality": "Valongo",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7301",
+    "Name": "Modelos - Paredes (Centro)",
+    "Origin": "Modelos",
+    "Destination": "Paredes (Centro)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7302",
+    "Name": "Paredes (Centro) - Gandra (CESPU) (via Vilela)",
+    "Origin": "Paredes (Centro) (via Vilela)",
+    "Destination": "Gandra (CESPU) (via Vilela)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7303",
+    "Name": "Baltar (Centro Escolar) - Gandra (CESPU) (via Cristelo)",
+    "Origin": "Baltar (Centro Escolar) (via Cristelo)",
+    "Destination": "Gandra (CESPU) (via Cristelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7304",
+    "Name": "Paredes (Centro) - Baltar (Centro Escolar) (via Cristelo)",
+    "Origin": "Paredes (Centro) (via Cristelo)",
+    "Destination": "Baltar (Centro Escolar) (via Cristelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7305",
+    "Name": "Modelos - Polo Universitário (via Lordelo)",
+    "Origin": "Modelos (via Lordelo)",
+    "Destination": "Polo Universitário (via Lordelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7306",
+    "Name": "Paredes (Centro) - Lordelo (Parteira)",
+    "Origin": "Paredes (Centro)",
+    "Destination": "Lordelo (Parteira)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7307",
+    "Name": "Cristelo (Escola) - Gandra (CESPU)",
+    "Origin": "Cristelo (Escola) ",
+    "Destination": "Gandra (CESPU)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7308",
+    "Name": "Paços de Ferreira (Centro) - Paredes (Centro) (via Lordelo)",
+    "Origin": "Paços de Ferreira (Centro) (via Lordelo)",
+    "Destination": "Paredes (Centro) (via Lordelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7309",
+    "Name": "Paços de Ferreira (Centro) - Susão (Estação) (via Seroa e Lordelo)",
+    "Origin": "Paços de Ferreira (Centro) (via Seroa e Lordelo)",
+    "Destination": "Susão (Estação) (via Seroa e Lordelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7310",
+    "Name": "Paços de Ferreira (Centro) - Paredes (Centro) (via Sobrosa)",
+    "Origin": "Paços de Ferreira (Centro) (via Sobrosa)",
+    "Destination": "Paredes (Centro) (via Sobrosa)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7311",
+    "Name": "Paços de Ferreira (Escola) - Paredes (Centro) (via Duas Igrejas)",
+    "Origin": "Paços de Ferreira (Escola) (via Duas Igrejas)",
+    "Destination": "Paredes (Centro) (via Duas Igrejas)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7312",
+    "Name": "Paços de Ferreira (Escola) - Paredes (Centro) (via Freamunde)",
+    "Origin": "Paços de Ferreira (Escola) (via Freamunde)",
+    "Destination": "Paredes (Centro) (via Freamunde)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7313",
+    "Name": "Paços de Ferreira (Escola) - Paredes (Centro) (via Beire)",
+    "Origin": "Paços de Ferreira (Escola) (via Beire)",
+    "Destination": "Paredes (Centro) (via Beire)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7314",
+    "Name": "Lousada (Nevogilde) - Paredes (Centro) (via Gondalães)",
+    "Origin": "Lousada (Nevogilde) (via Gondalães)",
+    "Destination": "Paredes (Centro) (via Gondalães)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7315",
+    "Name": "Paredes (Escolas) - Melres (via Hosp. Tâmega e Sousa)",
+    "Origin": "Paredes (Escolas) (via Hosp. Tâmega e Sousa)",
+    "Destination": "Melres (via Hosp. Tâmega e Sousa)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7316",
+    "Name": "Sobreira (Vilar) - Campo (Balselhas)",
+    "Origin": "Sobreira (Vilar)",
+    "Destination": "Campo (Balselhas)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7317",
+    "Name": "Circular | Paredes (via Hosp. Tâmega e Sousa)",
+    "Origin": "Circular | Paredes (via Hosp. Tâmega e Sousa)",
+    "Destination": "",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7318",
+    "Name": "Circular | Paredes (via Hosp. Tâmega e Sousa)",
+    "Origin": "Circular | Paredes (via Hosp. Tâmega e Sousa)",
+    "Destination": "",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7319",
+    "Name": "Baltar (Centro Escolar) - Recarei (Valvide) (via Cete)",
+    "Origin": "Baltar (Centro Escolar) (via Cete)",
+    "Destination": "Recarei (Valvide) (via Cete)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7320",
+    "Name": "Recarei/Sobreira (Estação) - Susão (Estação)",
+    "Origin": "Recarei/Sobreira (Estação) ",
+    "Destination": "Susão (Estação)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7321",
+    "Name": "Lousada (Centro) - Susão (Estação) (via Hosp. Tâmega e Sousa)",
+    "Origin": "Lousada (Centro) (via Hosp. Tâmega e Sousa)",
+    "Destination": "Susão (Estação) (via Hosp. Tâmega e Sousa)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7322",
+    "Name": "Paredes (Centro) - Polo Universitário (pela A4)",
+    "Origin": "Paredes (Centro) (pela A4)",
+    "Destination": "Polo Universitário (pela A4)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7323",
+    "Name": "Sobreira (Santa Comba) - Recarei/Sobreira (Estação)",
+    "Origin": "Sobreira (Santa Comba)",
+    "Destination": "Recarei/Sobreira (Estação)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7324",
+    "Name": "Penafiel (Esc. Secundáira) - Polo Universitário (pela A4 Gandra)",
+    "Origin": "Penafiel (Esc. Secundária) (pela A4 Gandra)",
+    "Destination": "Polo Universitário (pela A4 Gandra)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7325",
+    "Name": "Baltar (Centro Escolar) - Campo (Hosp. S. Martinho) (via Vilarinho de Baixo)",
+    "Origin": "Baltar (Centro Escolar) (via Vilarinho de Baixo)",
+    "Destination": "Campo (Hosp. S. Martinho) (via Vilarinho de Baixo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7326",
+    "Name": "Paredes (Centro) - Baltar (Centro Escolar) (via Cete)",
+    "Origin": "Paredes (Centro) (via Cete)",
+    "Destination": "Baltar (Centro Escolar) (via Cete)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7327",
+    "Name": "Baltar (Centro Escolar) - Sobrado de Baixo",
+    "Origin": "Baltar (Centro Escolar)",
+    "Destination": "Sobrado de Baixo",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7328",
+    "Name": "Baltar (Centro Escolar) - Guardão",
+    "Origin": "Baltar (Centro Escolar)",
+    "Destination": "Guardão",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7329",
+    "Name": "Baltar (Centro Escolar) - Vilarinho de Cima",
+    "Origin": "Baltar (Centro Escolar)",
+    "Destination": "Vilarinho de Cima",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7330",
+    "Name": "Guardão - Valongo (Estação) (via Sobrado)",
+    "Origin": "Guardão (via Sobrado)",
+    "Destination": "Valongo (Estação) (via Sobrado)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7331",
+    "Name": "Blatar (Centro Escolar) - Recarei/Sobreira (Estação)",
+    "Origin": "Blatar (Centro Escolar)",
+    "Destination": "Recarei/Sobreira (Estação)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7332",
+    "Name": "Sobreira (Valdorido) - Polo Universitário (pela A4)",
+    "Origin": "Sobreira (Valdorido) (pela A4)",
+    "Destination": "Polo Universitário (pela A4)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7333",
+    "Name": "Paços de Ferreira (Centro) - Susão (Estação) (via Lordelo)",
+    "Origin": "Paços de Ferreira (Centro) (via Lordelo)",
+    "Destination": "Susão (Estação) (via Lordelo)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7334",
+    "Name": "Paços de Ferreira (Centro) - Vilela",
+    "Origin": "Paços de Ferreira (Centro) ",
+    "Destination": "Vilela",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7335",
+    "Name": "Cristelo (Escola) - Baltar (Centro Escolar) (via Moinhos)",
+    "Origin": "Cristelo (Escola) (via Moinhos)",
+    "Destination": "Baltar (Centro Escolar) (via Moinhos)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "7336",
+    "Name": "Modelos - Polo Universitário (via Alto de Vila) (pela A4)",
+    "Origin": "Modelos (via Alto de Vila) (pela A4)",
+    "Destination": "Polo Universitário (via Alto de Vila) (pela A4)",
+    "Municipality": "Paredes",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8002",
+    "Name": "Canedo (Escola) - Areja",
+    "Origin": "Canedo (Escola)",
+    "Destination": "Areja",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8003",
+    "Name": "Ervedosa - Beloi",
+    "Origin": "Gondomar (Ervedosa)",
+    "Destination": "Gondomar (Beloi)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8004",
+    "Name": "Gramido - Campanhã (Estação)",
+    "Origin": "Gramido",
+    "Destination": "Campanhã (Estação)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8005",
+    "Name": "Valongo (Estação) - Gondomar (Souto)",
+    "Origin": "Valongo (Estação) ",
+    "Destination": "Gondomar (Souto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8006",
+    "Name": "Gens - Gondomar (Souto) (via S. Pedro da Cova)",
+    "Origin": "Gens (via S. Pedro da Cova)",
+    "Destination": "Gondomar (Souto) (via S. Pedro da Cova)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8007",
+    "Name": "Lomba - Hospital Fernando Pessoa (via Canedo)",
+    "Origin": "Lomba (via Canedo)",
+    "Destination": "Hospital Fernando Pessoa (via Canedo)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8008",
+    "Name": "Aguiar de Sousa - Gondomar (Souto)",
+    "Origin": "Aguiar de Sousa",
+    "Destination": "Gondomar (Souto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8009",
+    "Name": "Medas (Formiga Praia) - Campanhã (Estação)",
+    "Origin": "Medas (Formiga Praia)",
+    "Destination": "Campanhã (Estação)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8010",
+    "Name": "Jovim - Hospital Fernando Pessoa (via Vessada)",
+    "Origin": "Jovim (via Vessada)",
+    "Destination": "Hospital Fernando Pessoa (via Vessada)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8011",
+    "Name": "Sobreira (Santa Comba) - Hospital Fernando Pessoa",
+    "Origin": "Sobreira (Santa Comba)",
+    "Destination": "Hospital Fernando Pessoa",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8012",
+    "Name": "Ervedosa - Hospital Fernando Pessoa",
+    "Origin": "Ervedosa",
+    "Destination": "Hospital Fernando Pessoa",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8013",
+    "Name": "Gondomar (Souto) - Estádio do Dragão",
+    "Origin": "Gondomar (Souto)",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8014",
+    "Name": "Covelo - Gondomar (Souto)",
+    "Origin": "Covelo",
+    "Destination": "Gondomar (Souto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8015",
+    "Name": "Vilarinho - Hospital Fernando Pessoa",
+    "Origin": "Vilarinho",
+    "Destination": "Hospital Fernando Pessoa",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8016",
+    "Name": "Sarnada - Campanhã (Estação) (pela Marginal)",
+    "Origin": "Sarnada (pela Marginal)",
+    "Destination": "Campanhã (Estação) (pela Marginal)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8017",
+    "Name": "Fânzeres (Montezelo) - Campanhã (Estação) (via Centro de Saúde)",
+    "Origin": "Fânzeres (Montezelo) (via Centro de Saúde)",
+    "Destination": "Campanhã (Estação) (via Centro de Saúde)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8018",
+    "Name": "Broalhos - Foz do Sousa",
+    "Origin": "Broalhos",
+    "Destination": "Foz do Sousa",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8019",
+    "Name": "Gondomar (Souto) - Campanhã (Estação) (via EN209)",
+    "Origin": "Gondomar (Souto) (via EN209)",
+    "Destination": "Campanhã (Estação) (via EN209)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8020",
+    "Name": "Baguim - Estádio do Dragão",
+    "Origin": "Baguim",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8021",
+    "Name": "Jovim - Gondomar (Souto)",
+    "Origin": "Jovim",
+    "Destination": "Gondomar (Souto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8022",
+    "Name": "Hospital Fernando Pessoa - Hospital São João",
+    "Origin": "Hospital Fernando Pessoa",
+    "Destination": "Hospital São João",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8023",
+    "Name": "Seixo - Estádio do Dragão",
+    "Origin": "Seixo",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8024",
+    "Name": "Broalhos - Gondomar (Souto)",
+    "Origin": "Broalhos",
+    "Destination": "Gondomar (Souto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8025",
+    "Name": "Ermesinde (Estação) - Estádio do Dragão",
+    "Origin": "Ermesinde (Estação)",
+    "Destination": "Estádio do Dragão",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8026",
+    "Name": "Porqueira - Hospital Fernando Pessoa",
+    "Origin": "Porqueira",
+    "Destination": "Hospital Fernando Pessoa",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8027",
+    "Name": "Sebolido - Campanhã (Estação)",
+    "Origin": "Sebolido",
+    "Destination": "Medas (Escola)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8028",
+    "Name": "Circular | Campanhã (Estação) (pela Marginal)",
+    "Origin": "Circular | Campanhã (Estação) (pela Marginal)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8029",
+    "Name": "Circular | Campanhã (Estação) (por Vila Verde)",
+    "Origin": "Circular | Campanhã (Estação) (por Vila Verde)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8030",
+    "Name": "Circular | Gondomar (Centro) (via Alto de Soutelo)",
+    "Origin": "Circular | Gondomar (Centro) (via Alto de Soutelo)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8031",
+    "Name": "Circular | Gondomar (Centro) (via Alto de Soutelo)",
+    "Origin": "Circular | Gondomar (Centro) (via Alto de Soutelo)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8032",
+    "Name": "Valongo (Centro) - Parque Nascente (via Rio Tinto)",
+    "Origin": "Valongo (Centro) (via Rio Tinto)",
+    "Destination": "Parque Nascente (via Rio Tinto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8033",
+    "Name": "Baguim - Areias",
+    "Origin": "Baguim",
+    "Destination": "Areias",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8034",
+    "Name": "S. Pedro da Cova - Parque Nascente",
+    "Origin": "S. Pedro da Cova",
+    "Destination": "Parque Nascente",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8035",
+    "Name": "Gondomar (Souto) - Hospital São João",
+    "Origin": "Gondomar (Souto)",
+    "Destination": "Hospital São João",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8036",
+    "Name": "Circular | Gondomar (Souto) (via Valbom)",
+    "Origin": "Circular | Gondomar (Souto) (via Valbom)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8037",
+    "Name": "Circular | Gondomar (Souto) (via Valbom)",
+    "Origin": "Circular | Gondomar (Souto) (via Valbom)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8038",
+    "Name": "Circular | Gondomar (Souto) (via Foz do Sousa)",
+    "Origin": "Circular | Gondomar (Souto) (via Foz do Sousa)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8039",
+    "Name": "Circular | Gondomar (Souto) (via Foz do Sousa)",
+    "Origin": "Circular | Gondomar (Souto) (via Foz do Sousa)",
+    "Destination": "",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8040",
+    "Name": "Forno (Escola da Boucinha) - Hospital São João (via Estação Rio Tinto)",
+    "Origin": "Forno (Escola da Boucinha) (via Estação Rio Tinto)",
+    "Destination": "Hospital São João (via Estação Rio Tinto)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8041",
+    "Name": "Gondomar (Souto) - Campanhã (Estação) (via Vila Verde)",
+    "Origin": "Gondomar (Souto)",
+    "Destination": "Campanhã (Estação) (via Vila Verde)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "8042",
+    "Name": "Gondomar (Souto) - Parque Nascente (via IC29 e S. Roque)",
+    "Origin": "Gondomar (Souto) (via IC29 e S. Roque)",
+    "Destination": "Parque Nascente (via IC29 e S. Roque)",
+    "Municipality": "Gondomar",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9001",
+    "Name": "Areinho - Devesas (Estação)",
+    "Origin": "Areinho",
+    "Destination": "Devesas (Estação)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9002",
+    "Name": "Areinho - Parque das Camélias",
+    "Origin": "Areinho",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9003",
+    "Name": "Areinho - GaiaShopping",
+    "Origin": "Areinho",
+    "Destination": "Gaia Shopping",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9004",
+    "Name": "Madalena - Boavista (Casa da Música)",
+    "Origin": "Madalena",
+    "Destination": "Boavista (Casa da Música)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9005",
+    "Name": "Francelos (Estação) - João de Deus (Metro)",
+    "Origin": "Francelos (Estação)",
+    "Destination": "João de Deus (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9006",
+    "Name": "Freixieiro - João de Deus (Metro)",
+    "Origin": "Freixieiro",
+    "Destination": "João de Deus (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9007",
+    "Name": "Freixieiro - Serra do Pilar (via Gervide)",
+    "Origin": "Freixieiro",
+    "Destination": "Serra do Pilar (via Gervide)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9008",
+    "Name": "Agros - D. João II (Metro) (via Hospital Santos Silva)",
+    "Origin": "Agros (via Hospital Santos Silva)",
+    "Destination": "D. João II (Metro) (via Hospital Santos Silva)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9009",
+    "Name": "Póvoa de Baixo - Carvalhos (Esc. Padre António Luís Moreira)",
+    "Origin": "Póvoa de Baixo",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9010",
+    "Name": "Olival - Espinho (Estação Vouga)",
+    "Origin": "Olival",
+    "Destination": "Espinho (Estação Vouga)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9011",
+    "Name": "Suil Park - D. João II (Metro)",
+    "Origin": "Suil Park",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9012",
+    "Name": "Lavadores (Praia) - Parque das Camélias",
+    "Origin": "Lavadores (Praia)",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9013",
+    "Name": "Lavadores (Praia) - Jardim do Morro",
+    "Origin": "Lavadores (Praia)",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9014",
+    "Name": "Santo Ovídio - Lavadores (Praia)",
+    "Origin": "Santo Ovídio",
+    "Destination": "Lavadores (Praia)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9015",
+    "Name": "Afurada - Parque das Camélias",
+    "Origin": "Afurada",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9016",
+    "Name": "Salgueiros (Praia) - Jardim do Morro",
+    "Origin": "Salgueiros (Praia)",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9017",
+    "Name": "Chãos Vermelhos - Jardim do Morro",
+    "Origin": "Chãos Vermelhos",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9018",
+    "Name": "Afurada - Boavista (Casa da Música)",
+    "Origin": "Afurada",
+    "Destination": "Boavista (Casa da Música)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9019",
+    "Name": "Santo Ovídio - Salgueiros (Praia)",
+    "Origin": "Santo Ovídio",
+    "Destination": "Salgueiros (Praia)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9020",
+    "Name": "Circular | Santo Ovídio (via Laborim)",
+    "Origin": "Circular | Santo Ovídio (via Laborim)",
+    "Destination": "Circular | Santo Ovídio (via Laborim)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9021",
+    "Name": "Gaia (Câmara) - Chãos Vermelhos (via marginal)",
+    "Origin": "Gaia (Câmara) (via marginal)",
+    "Destination": "Chãos Vermelhos (via marginal)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9022",
+    "Name": "Pedroso - D. João II (Metro)",
+    "Origin": "Pedroso",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9023",
+    "Name": "Outeiro - Carvalhos (Feira)",
+    "Origin": "Outeiro",
+    "Destination": "Carvalhos (Feira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9024",
+    "Name": "Pisão - D. João II (Metro)",
+    "Origin": "Pisão",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9025",
+    "Name": "Vilar de Andorinho - D. João II (Metro)",
+    "Origin": "Vilar de Andorinho",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9026",
+    "Name": "Crestuma (Igreja) - D. João II (Metro)",
+    "Origin": "Crestuma (Igreja)",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9027",
+    "Name": "Canedo - D. João II (Metro) (via Lever)",
+    "Origin": "Canedo (via Lever)",
+    "Destination": "D. João II (Metro) (via Lever)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9028",
+    "Name": "Lomba - D. João II (Metro) (via Lever pela N222)",
+    "Origin": "Lomba (via Lever pela N222)",
+    "Destination": "D. João II (Metro) (via Lever pela N222)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9029",
+    "Name": "Canedo - D. João II (Metro) (via Crestuma)",
+    "Origin": "Canedo (via Crestuma)",
+    "Destination": "D. João II (Metro) (via Crestuma)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9030",
+    "Name": "Mota - D. João II (Metro)",
+    "Origin": "Mota",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9031",
+    "Name": "Louredo - D. João II (Metro)",
+    "Origin": "Louredo",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9033",
+    "Name": "Várzea - D. João II (Metro)",
+    "Origin": "Várzea",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9034",
+    "Name": "Olival (Escola) - Arnelas",
+    "Origin": "Olival (Escola)",
+    "Destination": "Arnelas",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9035",
+    "Name": "Sandim (Mosteiro) - Carvalhos (Esc. Padre António Luís Moreira)",
+    "Origin": "Sandim (Mosteiro)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9036",
+    "Name": "Canedo (Escola) - Olival (Escola)",
+    "Origin": "Canedo (Escola)",
+    "Destination": "Olival (Escola)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9037",
+    "Name": "Lever (Portelinha) - Olival (Escola)",
+    "Origin": "Lever (Portelinha)",
+    "Destination": "Olival (Escola)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9038",
+    "Name": "Camalhões - Espinho (Esc. Dr. Manuel Gomes de Almeida)",
+    "Origin": "Camalhões",
+    "Destination": "Espinho (Esc. Dr. Manuel Gomes de Almeida)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9039",
+    "Name": "Alheira - João de Deus (Metro)",
+    "Origin": "Alheira",
+    "Destination": "João de Deus (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9040",
+    "Name": "Espinhaço - D. João II (Metro)",
+    "Origin": "Espinhaço",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9041",
+    "Name": "Avintes - D. João II (Metro)",
+    "Origin": "Avintes",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9042",
+    "Name": "Crestuma (Igreja) - Vila d Este",
+    "Origin": "Crestuma (Igreja)",
+    "Destination": "Vila d Este",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9043",
+    "Name": "Carvalhos (Feira) - Avintes",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "Avintes",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9044",
+    "Name": "Olival (Igreja) - Carvalhos (Esc. Padre António Luís Moreira)",
+    "Origin": "Olival (Igreja)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9045",
+    "Name": "Miramar - João de Deus (Metro)",
+    "Origin": "Miramar",
+    "Destination": "João de Deus (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9046",
+    "Name": "Espinho (Estação Vouga) - Rechousa",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Rechousa",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9047",
+    "Name": "Espinho (Estação Vouga) - Arcozelo",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Arcozelo",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9048",
+    "Name": "Vendas de Grijó - Centro Reabilitação do Norte",
+    "Origin": "Vendas de Grijó",
+    "Destination": "Centro Reabilitação do Norte",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9049",
+    "Name": "Aldriz (Rua de São Pedro) - Carvalhos (Bombas)",
+    "Origin": "Aldriz",
+    "Destination": "Carvalhos (Bombas)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9050",
+    "Name": "Vendas de Grijó - D. João II (Metro) (via Mosteiro)",
+    "Origin": "Vendas de Grijó (via Mosteiro)",
+    "Destination": "D. João II (Metro) (via Mosteiro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9051",
+    "Name": "Vendas de Grijó - Carvalhos (Bombas) (via Sermonde)",
+    "Origin": "Vendas de Grijó (via Sermonde)",
+    "Destination": "Carvalhos (Bombas) (via Sermonde)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9052",
+    "Name": "Lavadores (Praia) - Parque das Camélias (via GaiaShopping)",
+    "Origin": "Lavadores (Praia) (via GaiaShopping)",
+    "Destination": "Parque das Camélias (via GaiaShopping)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9053",
+    "Name": "Grijó (Outlet) - Carvalhos (Feira)",
+    "Origin": "Grijó (Outlet)",
+    "Destination": "Carvalhos (Feira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9054",
+    "Name": "Carvalhos (Feira) - Aguda",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "Aguda",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9055",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (via Canelas)",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "D. João II (Metro) (via Canelas)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9056",
+    "Name": "Carvalhos (Feira) - Miramar",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "Miramar",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9057",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (via Sra. do Monte)",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "D. João II (Metro) (via Sra. do Monte)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9058",
+    "Name": "Espinho (Estação Vouga) - Parque das Camélias",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Parque das Camélias",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9060",
+    "Name": "Espinho (Estação Vouga) - Carvalhos (Feira)",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Carvalhos (Feira)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9061",
+    "Name": "Póvoa de Baixo - D. João II (Metro)",
+    "Origin": "Póvoa de Baixo",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9062",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (via S. Lourenço)",
+    "Origin": "Carvalhos (Feira) (via S. Lourenço)",
+    "Destination": "D. João II (Metro) (via S. Lourenço)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9063",
+    "Name": "Olival (Escola) - Carvalhos (Esc. Padre António Luís Moreira) (via Tabosa)",
+    "Origin": "Olival (Escola) (via Tabosa)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira) (via Tabosa)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9064",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (pela A1)",
+    "Origin": "Carvalhos (Feira) (pela A1)",
+    "Destination": "D. João II (Metro) (pela A1)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9065",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (via Rechousa)",
+    "Origin": "Carvalhos (Feira) (via Rechousa)",
+    "Destination": "D. João II (Metro) (via Rechousa)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9066",
+    "Name": "Alheira - Gaia Shopping",
+    "Origin": "Alheira",
+    "Destination": "Gaia Shopping",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9067",
+    "Name": "Vila d'Este - Freixieiro",
+    "Origin": "Vila d'Este",
+    "Destination": "Freixieiro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9069",
+    "Name": "Lijó - D. João II (Metro) (via Hosp. Santos Silva)",
+    "Origin": "Lijó (via Hosp. Santos Silva)",
+    "Destination": "D. João II (Metro) (via Hosp. Santos Silva)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9070",
+    "Name": "Arnelas - D. João II (Metro)",
+    "Origin": "Arnelas",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9071",
+    "Name": "Carvalhos (Feira) - D. João II (Metro) (via Venda de Baixo)",
+    "Origin": "Carvalhos (Feira)",
+    "Destination": "D. João II (Metro) (via Venda de Baixo)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9072",
+    "Name": "Valadares (Escola) - D. João II (Metro)",
+    "Origin": "Valadares (Escola)",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9073",
+    "Name": "Palmeira - Santo Ovídio",
+    "Origin": "Palmeira",
+    "Destination": "Santo Ovídio",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9074",
+    "Name": "Espinho (Estação Vouga) - Vendas de Grijó",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Vendas de Grijó",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9075",
+    "Name": "Grijó (Outlet-Park&Ride) - Crestuma (via Sandim)",
+    "Origin": "Grijó (Outlet-Park&Ride) (via Sandim)",
+    "Destination": "Crestuma (via Sandim)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9076",
+    "Name": "Grijó (Sto. António) - D. João II (Metro) (via Grijó Outlet pela A1)",
+    "Origin": "Grijó (Sto. António) (via Grijó Outlet pela A1)",
+    "Destination": "D. João II (Metro) (via Grijó Outlet pela A1)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9078",
+    "Name": "Circular | Lavadores (via Coimbrões)",
+    "Origin": "Circular | Lavadores (via Coimbrões)",
+    "Destination": "Circular | Lavadores (via Coimbrões)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9079",
+    "Name": "Circular | Lavadores (via Coimbrões)",
+    "Origin": "Circular | Lavadores (via Coimbrões)",
+    "Destination": "Circular | Lavadores (via Coimbrões)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9081",
+    "Name": "Canelas de Cima - D. João II (Metro)",
+    "Origin": "Canelas de Cima",
+    "Destination": "D. João II (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9082",
+    "Name": "Serzedo - Jardim do Morro",
+    "Origin": "Serzedo",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9083",
+    "Name": "Baiza - D. João II (Metro)",
+    "Origin": "D. João II (Metro)",
+    "Destination": "Baiza",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9084",
+    "Name": "Circular | Olival (Escola)",
+    "Origin": "Circular | Olival (Escola)",
+    "Destination": "circular",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9085",
+    "Name": "Póvoa de Grijó - Jardim do Morro",
+    "Origin": "Póvoa de Grijó",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9086",
+    "Name": "Canelas (Escola) - Jardim do Morro",
+    "Origin": "Canelas (Escola)",
+    "Destination": "Jardim do Morro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9087",
+    "Name": "Areinho - João de Deus (Metro)",
+    "Origin": "Areinho",
+    "Destination": "João de Deus (Metro)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9088",
+    "Name": "Lourosa/Fiães (Interface) - Polo Universitário (via Carvalhos)",
+    "Origin": "Lourosa/Fiães (Interface)",
+    "Destination": "Polo Universitário (via Carvalhos)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9089",
+    "Name": "Lomba (J.F.) - Carvalhos (Esc. Padre António Luís Moreira) (via Vila D Este)",
+    "Origin": "Lomba (J.F.) (via Vila D Este)",
+    "Destination": "Carvalhos (Esc. Padre António Luís Moreira) (via Vila D Este)",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9501",
+    "Name": "Circular | Espinho (Estação Vouga) (via Anta)",
+    "Origin": "Circular | Espinho (Estação Vouga) (via Anta)",
+    "Destination": "",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9502",
+    "Name": "Circular | Espinho (Estação Vouga) (via Silvalde)",
+    "Origin": "Circular | Espinho (Estação Vouga) (via Silvalde)",
+    "Destination": "",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9503",
+    "Name": "Circular | Espinho (Estação Vouga) (via Silvalde)",
+    "Origin": "Circular | Espinho (Estação Vouga) (via Silvalde)",
+    "Destination": "",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9504",
+    "Name": "Anta (Centro Escolar) - Espinho (Estação Vouga)",
+    "Origin": "Anta (Centro Escolar)",
+    "Destination": "Espinho (Estação Vouga)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9505",
+    "Name": "Espinho (Estação Vouga) - Carvalhos (Feira)",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Carvalhos (Feira)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9506",
+    "Name": "Esmoriz (Praia) - Espinho (Estação Vouga)",
+    "Origin": "Esmoriz (Praia)",
+    "Destination": "Espinho (Estação Vouga)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9507",
+    "Name": "Guetim - Espinho (Estação Vouga) (via Lameiro)",
+    "Origin": "Espinho (Guetim) (via Lameiro)",
+    "Destination": "Espinho (Estação Vouga) (via Lameiro)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9508",
+    "Name": "Lapa (Apeadeiro) - Espinho (Estação Vouga)",
+    "Origin": "Lapa (Apeadeiro)",
+    "Destination": "Espinho (Estação Vouga)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9509",
+    "Name": "Paramos (Praia) - Espinho (Estação Vouga)",
+    "Origin": "Paramos (Praia)",
+    "Destination": "Espinho (Estação Vouga)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9510",
+    "Name": "Espinho (Estação Vouga) - Carvalhos (Feira) (via Sermonde)",
+    "Origin": "Espinho (Estação Vouga) (via Sermonde)",
+    "Destination": "Carvalhos (Feira) (via Sermonde)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9511",
+    "Name": "Espinho (Estação Vouga) - Boavista (Casa da Música)",
+    "Origin": "Espinho (Estação Vouga)",
+    "Destination": "Boavista (Casa da Música)",
+    "Municipality": "Espinho",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9901",
+    "Name": "Cais da Afurada - Cais do Ouro",
+    "Origin": "Cais da Afurada",
+    "Destination": "Cais do Ouro",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  },
+  {
+    "Code": "9902",
+    "Name": "Cais de Gaia - Cais da Ribeira",
+    "Origin": "Cais de Gaia",
+    "Destination": "Cais da Ribeira",
+    "Municipality": "Vila Nova De Gaia",
+    "ColorHex": "#4877ff"
+  }
+]

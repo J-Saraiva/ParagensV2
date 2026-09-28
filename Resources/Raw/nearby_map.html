@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; width: 100%; }
+        #map { height: 100%; width: 100%; }
+        .loading-overlay {
+            position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+            background: rgba(255,255,255,0.9); padding: 5px 15px; border-radius: 20px;
+            font-family: sans-serif; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000; display: none; font-weight: bold; color: #333;
+        }
+        
+        .user-marker {
+            background-color: #2196F3;
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+        }
+        
+        .bus-marker {
+            background-color: #FF9800;
+            border: 2px solid white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .train-marker {
+            background-color: #4CAF50;
+            border: 2px solid white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: white;
+        }
+        
+        .metro-marker {
+            background-color: #3F51B5;
+            border: 2px solid white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading-overlay">Procurando paragens...</div>
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map', {
+            zoomControl: false,
+            attributionControl: false
+        }).setView([41.1579, -8.6291], 15);
+
+        // OpenStreetMap tiles
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        let userMarker = null;
+        let stopsLayer = L.layerGroup().addTo(map);
+        let isLoading = false;
+        let loadedBounds = [];
+        
+        // Define Custom Icons
+        const userIcon = L.divIcon({ className: 'user-marker', iconSize: [16, 16] });
+        const busIcon = L.divIcon({ className: 'bus-marker', html: 'B', iconSize: [20, 20] });
+        const trainIcon = L.divIcon({ className: 'train-marker', html: 'T', iconSize: [22, 22] });
+        const metroIcon = L.divIcon({ className: 'metro-marker', html: 'M', iconSize: [22, 22] });
+
+        function setUserLocation(lat, lng) {
+            map.setView([lat, lng], 16);
+            if (userMarker) {
+                userMarker.setLatLng([lat, lng]);
+            } else {
+                userMarker = L.marker([lat, lng], { icon: userIcon, zIndexOffset: 1000 }).addTo(map);
+                userMarker.bindPopup("<b>A tua localização</b>");
+            }
+            fetchNearbyStops();
+        }
+        
+        function navigateToStop(code, name, type) {
+            // Signal MAUI WebView
+            window.location.href = `paragens://stop?id=${encodeURIComponent(code)}&name=${encodeURIComponent(name)}&type=${encodeURIComponent(type)}`;
+        }
+
+        // Fetch stops from Overpass API when map moves
+        map.on('moveend', function() {
+            fetchNearbyStops();
+        });
+
+        async function fetchNearbyStops() {
+            if (map.getZoom() < 14) return; // Don't fetch if too zoomed out
+            
+            const bounds = map.getBounds();
+            // Basic optimization: check if we already loaded this area roughly
+            if (loadedBounds.some(b => b.contains(bounds))) return;
+            
+            isLoading = true;
+            document.getElementById('loading').style.display = 'block';
+            
+            const s = bounds.getSouth();
+            const w = bounds.getWest();
+            const n = bounds.getNorth();
+            const e = bounds.getEast();
+            
+            // Query for bus stops, train stations, tram/metro stops
+            const query = `
+                [out:json][timeout:15];
+                (
+                  node["highway"="bus_stop"](${s},${w},${n},${e});
+                  node["public_transport"="platform"](${s},${w},${n},${e});
+                  node["public_transport"="station"](${s},${w},${n},${e});
+                  node["railway"="station"](${s},${w},${n},${e});
+                  node["railway"="tram_stop"](${s},${w},${n},${e});
+                );
+                out body;
+                >;
+                out skel qt;
+            `;
+            
+            try {
+                const response = await fetch('https://overpass-api.de/api/interpreter', {
+                    method: 'POST',
+                    body: query
+                });
+                
+                if (!response.ok) throw new Error("Overpass API error");
+                
+                const data = await response.json();
+                processOverpassData(data);
+                
+                // Save this bound so we don't fetch it again
+                loadedBounds.push(bounds.pad(0.5));
+            } catch (err) {
+                console.error("Failed to fetch stops:", err);
+            } finally {
+                isLoading = false;
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+        
+        function processOverpassData(data) {
+            if (!data || !data.elements) return;
+            
+            data.elements.forEach(el => {
+                if (el.type !== 'node' || !el.tags) return;
+                
+                // Identify type
+                let type = 'BUS';
+                let icon = busIcon;
+                
+                if (el.tags.railway === 'station' || el.tags.train === 'yes') {
+                    type = 'TRAIN';
+                    icon = trainIcon;
+                } else if (el.tags.railway === 'tram_stop' || el.tags.station === 'light_rail' || (el.tags.name && el.tags.name.toLowerCase().includes('metro'))) {
+                    type = 'METRO';
+                    icon = metroIcon;
+                }
+                
+                const name = el.tags.name || "Paragem Desconhecida";
+                let code = el.tags.ref || el.tags.network || "";
+                
+                const marker = L.marker([el.lat, el.lon], { icon: icon });
+                
+                // Tooltip with stop name
+                marker.bindTooltip(`<b>${name}</b>${code ? '<br>Ref: ' + code : ''}`, { direction: 'top', offset: [0, -10] });
+                
+                marker.on('click', () => {
+                    navigateToStop(code, name, type);
+                });
+                
+                stopsLayer.addLayer(marker);
+            });
+        }
+    </script>
+</body>
+</html>

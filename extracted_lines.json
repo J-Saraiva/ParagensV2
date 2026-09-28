@@ -1,0 +1,520 @@
+[
+  {
+    "LineNumber": "200",
+    "Name": "BOLHÃO - CAST.QUEIJO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "201",
+    "Name": "ALIADOS-VISO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "202",
+    "Name": "ALIADOS-PASSEIO ALEGRE (VIA AV. BESSA)",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "203",
+    "Name": "ESTÁDIO DO DRAGÃO - CASA DA MÚSICA",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "204",
+    "Name": "HOSPITAL DE S.JOÃO - FOZ",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "205",
+    "Name": "CAMPANHÃ-CASTELO DO QUEIJO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "206",
+    "Name": "CAMPANHÃ-VISO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "207",
+    "Name": "CAMPANHÃ-MERCADO DA FOZ",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "208",
+    "Name": "ALIADOS-ALDOAR",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "209",
+    "Name": "PASTELEIRA-PRELADA",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "300",
+    "Name": "CIRCULAR HOSPITAL DE S.JOÃO-ALIADOS",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "301",
+    "Name": "CIRCULAR HOSPITAL S.JOÃO-SÁ DA BANDEIRA",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "302",
+    "Name": "CIRCULAR ALIADOS-DAMIÃO DE GOIS",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "303",
+    "Name": "CIRCULAR PRAÇA DA LIBERDADE-CONSTITUIÇÃO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "304",
+    "Name": "ALIADOS-STA. LUZIA",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "305",
+    "Name": "CORDOARIA-HOSPITAL DE S.JOÃO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "400",
+    "Name": "ALIADOS-PARQUE NASCENTE",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "401",
+    "Name": "BOLHÃO-S.ROQUE",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "402",
+    "Name": "BOAVISTA - S.ROQUE",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "403",
+    "Name": "BOAVISTA (CASA MÚSICA)-CAMPANHÃ",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "404",
+    "Name": "CAMPANHÃ (TIC) - HOSP. S. JOÃO",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "500",
+    "Name": "PRAÇA LIBERDADE-MATOSINHOS (MERCADO)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "501",
+    "Name": "ALIADOS-MATOSINHOS (PRAIA)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "502",
+    "Name": "BOLHÃO-MATOSINHOS (MERCADO)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "503",
+    "Name": "BOAVISTA (BOM SUCESSO)- GATÕES",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "504",
+    "Name": "BOAVISTA - NORTESHOPPING",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "505",
+    "Name": "HOSPITAL S. JOÃO-MATOSINHOS (MERCADO)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "506",
+    "Name": "HOSPITAL S.JOÃO-MATOSINHOS (MERCADO)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "507",
+    "Name": "CORDOARIA-MAR SHOPPING",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "508",
+    "Name": "BOAVISTA - CABO DO MUNDO (Via MAR Shop.)",
+    "Color": "#FCD116",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "600",
+    "Name": "ALIADOS-MAIA",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "601",
+    "Name": "CORDOARIA-AEROPORTO (Via MAR Shopping)",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "602",
+    "Name": "CORDOARIA-AEROPORTO (VIA PADRÃO MOREIRA)",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "603",
+    "Name": "MARQUÊS-MAIA",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "604",
+    "Name": "HOSPITAL S.JOÃO-AEROPORTO(VIA CRESTINS)",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "605",
+    "Name": "MARQUÊS-MAIA (BARCA)",
+    "Color": "#00AC00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "700",
+    "Name": "BOLHÃO - CAMPO",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "701",
+    "Name": "BOLHÃO-CODICEIRA",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "702",
+    "Name": "BOLHÃO-TRAVAGEM",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "703",
+    "Name": "CORDOARIA-SONHOS",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "704",
+    "Name": "BOAVISTA - CODICEIRA",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "705",
+    "Name": "HOSPITAL S. JOÃO-VALONGO (CONTINENTE)",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "706",
+    "Name": "H.S.JOÃO - ERMESINDE(EST)VIA MTE PENEDO",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "707",
+    "Name": "H.S.JOÃO-ERMESINDE(EST)VIA ARREGADAS",
+    "Color": "#FF0000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "800",
+    "Name": "BOLHÃO-GONDOMAR",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "801",
+    "Name": "CORDOARIA-S.PEDRO DA COVA",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "803",
+    "Name": "BOAVISTA-RIO TINTO(Esc. Sec.)",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "804",
+    "Name": "HOSPITAL S.JOÃO-S.PEDRO DA COVA",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "805",
+    "Name": "MARQUÊS-RIO TINTO (ESTAÇÃO)",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "806",
+    "Name": "MARQUÊS - FÂNZERES (METRO)",
+    "Color": "#A347FF",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "900",
+    "Name": "CORDOARIA-FRANCELOS",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "901",
+    "Name": "TRINDADE-VALADARES",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "902",
+    "Name": "BOAVISTA - LAVADORES",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "903",
+    "Name": "BOAVISTA-LABORIM",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "904",
+    "Name": "TRINDADE-COIMBRÕES",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "905",
+    "Name": "TRINDADE-MADALENA (C.SAÚDE)",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "906",
+    "Name": "TRINDADE-MADALENA",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "907",
+    "Name": "BOAVISTA-VILA D&#039;ESTE",
+    "Color": "#FF7900",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "ZC",
+    "Name": "ESTÁDIO DO DRAGÃO - AREIAS",
+    "Color": "#187EC2",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "1M",
+    "Name": "AV.ALIADOS - MATOSINHOS (PRAIA)",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "2M",
+    "Name": "AV.ALIADOS - HOSPITAL S. JOÃO",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "3M",
+    "Name": "AV.ALIADOS - AEROPORTO",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "4M",
+    "Name": "AV.ALIADOS - MAIA (CÂMARA)",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "5M",
+    "Name": "AV.ALIADOS - ERMESINDE (ESTAÇÃO)",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "7M",
+    "Name": "AV.ALIADOS - VALONGO",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "8M",
+    "Name": "AV.ALIADOS - S.PEDRO DA COVA",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "9M",
+    "Name": "ALIADOS-GONDOMAR (VIA TIC)",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "10M",
+    "Name": "AV.ALIADOS - VILA D&#039;ESTE",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "11M",
+    "Name": "HOSP. S. JOÃO - COIMBRÕES",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "12M",
+    "Name": "AV.ALIADOS - STO.OVÍDIO",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "13M",
+    "Name": "AV.ALIADOS - MATOSINHOS (MERCADO)",
+    "Color": "#000000",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "1",
+    "Name": "Infante - Passeio Alegre",
+    "Color": "#974C00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "18",
+    "Name": "Carmo - Passeio Alegre",
+    "Color": "#974C00",
+    "RouteShape": [],
+    "Stops": []
+  },
+  {
+    "LineNumber": "22",
+    "Name": "Carmo - Batalha",
+    "Color": "#974C00",
+    "RouteShape": [],
+    "Stops": []
+  }
+]

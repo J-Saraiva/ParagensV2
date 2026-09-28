@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ParagensV2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ParagensV2.Views"
+    Title="ParagensV2"
+    FlyoutBehavior="Flyout"
+    FlyoutWidth="300"
+    FlyoutBackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#0F172A}">
+
+    <!-- Flyout Header -->
+    <Shell.FlyoutHeader>
+        <Border BackgroundColor="{AppThemeBinding Light=#1A237E, Dark=#1E293B}" Padding="24,36,24,24" StrokeThickness="0">
+            <VerticalStackLayout Spacing="6">
+                <Label Text="🚌 🚇 🚆" FontSize="28" />
+                <Label Text="Paragens &amp; Horários" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,4,0,0" />
+                <Label Text="Grande Porto &amp; Portugal" TextColor="#38BDF8" FontSize="13" FontAttributes="Bold" />
+            </VerticalStackLayout>
+        </Border>
+    </Shell.FlyoutHeader>
+
+    <!-- Dynamic Theme Item Template -->
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="12" Padding="20,16">
+                <Label Grid.Column="1" 
+                       Text="{Binding Title}" 
+                       TextColor="{AppThemeBinding Light=#1E293B, Dark=#FFFFFF}" 
+                       FontSize="16" 
+                       FontAttributes="Bold" 
+                       VerticalOptions="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <!-- Flyout Navigation Items -->
+    <FlyoutItem Title="⭐  Início (Favoritos)">
+        <ShellContent
+            Title="Início"
+            ContentTemplate="{DataTemplate views:HomePage}"
+            Route="HomePage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="🧭  Explorar Rede">
+        <ShellContent
+            Title="Explorar"
+            ContentTemplate="{DataTemplate views:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="⚙️  Definições">
+        <ShellContent
+            Title="Definições"
+            ContentTemplate="{DataTemplate views:SettingsPage}"
+            Route="SettingsPage" />
+    </FlyoutItem>
+
+    <!-- Flyout Footer -->
+    <Shell.FlyoutFooter>
+        <Border StrokeThickness="0" BackgroundColor="Transparent" Padding="20,16">
+            <Label Text="ParagensV2 • Tempo Real" TextColor="{AppThemeBinding Light=#94A3B8, Dark=#64748B}" FontSize="12" />
+        </Border>
+    </Shell.FlyoutFooter>
+
+</Shell>
+

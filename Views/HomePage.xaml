@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ParagensV2.Models"
+             x:Class="ParagensV2.Views.HomePage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{AppThemeBinding Light=#F0F4F8, Dark=#0B1120}">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Modern Header -->
+        <Border Grid.Row="0" StrokeThickness="0" BackgroundColor="{StaticResource Primary}" Padding="20,24,20,18">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,4" Opacity="0.2" Radius="10" />
+            </Border.Shadow>
+            <VerticalStackLayout Spacing="14">
+                <Grid ColumnDefinitions="*,Auto" ColumnSpacing="12" VerticalOptions="Center">
+                    <VerticalStackLayout Grid.Column="0" VerticalOptions="Center">
+                        <Label Text="⭐ Os Meus Favoritos" TextColor="#80D8FF" FontSize="13" FontAttributes="Bold" />
+                        <Label Text="Página Inicial" TextColor="White" FontSize="24" FontAttributes="Bold" Margin="0,1,0,0" />
+                        <Label Text="Acede rapidamente às tuas linhas e paragens" TextColor="#B0BEC5" FontSize="12" Margin="0,1,0,0" />
+                    </VerticalStackLayout>
+
+                    <!-- Explore Button -->
+                    <Border Grid.Column="1" 
+                            StrokeThickness="0" 
+                            BackgroundColor="#283593" 
+                            HeightRequest="42" 
+                            Padding="14,0" 
+                            VerticalOptions="Center">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="21" />
+                        </Border.StrokeShape>
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNavigateToExplore" />
+                        </Border.GestureRecognizers>
+                        <HorizontalStackLayout Spacing="6" VerticalOptions="Center">
+                            <Label Text="🧭" FontSize="16" VerticalOptions="Center" />
+                            <Label Text="Explorar" TextColor="White" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </HorizontalStackLayout>
+                    </Border>
+                </Grid>
+
+                <!-- Filter Pills: Todas, Linhas favoritas, Paragens favoritas, Estações favoritas -->
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <HorizontalStackLayout Spacing="8">
+                        <!-- Todas -->
+                        <Border StrokeThickness="0" BackgroundColor="{Binding AllPillBackground}" Padding="16,9">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="18" />
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSelectAllFilter" />
+                            </Border.GestureRecognizers>
+                            <Label Text="{Binding AllPillText}" TextColor="{Binding AllPillTextColor}" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </Border>
+
+                        <!-- Linhas favoritas -->
+                        <Border StrokeThickness="0" BackgroundColor="{Binding LinesPillBackground}" Padding="16,9">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="18" />
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSelectLinesFilter" />
+                            </Border.GestureRecognizers>
+                            <Label Text="{Binding LinesPillText}" TextColor="{Binding LinesPillTextColor}" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </Border>
+
+                        <!-- Paragens favoritas -->
+                        <Border StrokeThickness="0" BackgroundColor="{Binding StopsPillBackground}" Padding="16,9">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="18" />
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSelectStopsFilter" />
+                            </Border.GestureRecognizers>
+                            <Label Text="{Binding StopsPillText}" TextColor="{Binding StopsPillTextColor}" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </Border>
+
+                        <!-- Estações favoritas -->
+                        <Border StrokeThickness="0" BackgroundColor="{Binding StationsPillBackground}" Padding="16,9">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="18" />
+                            </Border.StrokeShape>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSelectStationsFilter" />
+                            </Border.GestureRecognizers>
+                            <Label Text="{Binding StationsPillText}" TextColor="{Binding StationsPillTextColor}" FontSize="13" FontAttributes="Bold" VerticalOptions="Center" />
+                        </Border>
+                    </HorizontalStackLayout>
+                </ScrollView>
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="1">
+            <!-- Empty State -->
+            <VerticalStackLayout IsVisible="{Binding IsEmpty}" VerticalOptions="Center" HorizontalOptions="Center" Spacing="14" Padding="32">
+                <Border HeightRequest="80" WidthRequest="80" BackgroundColor="{AppThemeBinding Light=#E8EAF6, Dark=#1E293B}" StrokeThickness="0" HorizontalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="40" />
+                    </Border.StrokeShape>
+                    <Label Text="⭐" FontSize="36" HorizontalOptions="Center" VerticalOptions="Center" />
+                </Border>
+                <Label Text="Sem favoritos nesta secção" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                <Label Text="Navega pelas linhas e paragens da STCP, UNIR, Metro ou CP e utiliza o menu ⋮ para as adicionar aos teus favoritos." TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="14" HorizontalTextAlignment="Center" MaximumWidthRequest="340" />
+                
+                <Button Text="🧭 Explorar Linhas e Paragens" 
+                        Clicked="OnNavigateToExplore"
+                        BackgroundColor="{StaticResource Primary}" 
+                        TextColor="White" 
+                        FontAttributes="Bold" 
+                        CornerRadius="22" 
+                        HeightRequest="46" 
+                        Padding="24,0" 
+                        Margin="0,8,0,0" />
+            </VerticalStackLayout>
+
+            <!-- Favorites List -->
+            <RefreshView IsVisible="{Binding HasFavorites}" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}" RefreshColor="{StaticResource Primary}">
+                <CollectionView ItemsSource="{Binding FilteredFavorites}" SelectionMode="Single" SelectionChanged="OnFavoriteSelected" Margin="12,12,12,24">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:FavoriteItem">
+                            <Border StrokeThickness="0" BackgroundColor="{AppThemeBinding Light=#FFFFFF, Dark=#1E293B}" Margin="4,6,4,6" Padding="14">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="16" />
+                                </Border.StrokeShape>
+                                <Border.Shadow>
+                                    <Shadow Brush="Black" Offset="0,2" Opacity="0.08" Radius="6" />
+                                </Border.Shadow>
+
+                                <Grid ColumnDefinitions="Auto,*,Auto,Auto" ColumnSpacing="14" VerticalOptions="Center">
+                                    <!-- Badge in official operator color -->
+                                    <Border Grid.Column="0" HeightRequest="48" WidthRequest="54" BackgroundColor="{Binding Color}" StrokeThickness="0">
+                                        <Border.StrokeShape>
+                                            <RoundRectangle CornerRadius="12" />
+                                        </Border.StrokeShape>
+                                        <Label Text="{Binding BadgeText}" TextColor="White" FontSize="15" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Details -->
+                                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                                        <Label Text="{Binding Title}" TextColor="{AppThemeBinding Light=#1E293B, Dark=#F8FAFC}" FontSize="16" FontAttributes="Bold" LineBreakMode="TailTruncation" />
+                                        <HorizontalStackLayout Spacing="6" Margin="0,2,0,0">
+                                            <Label Text="{Binding TagDisplay}" TextColor="{Binding Color}" FontSize="12" FontAttributes="Bold" />
+                                            <Label Text="•" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" />
+                                            <Label Text="{Binding Subtitle}" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" FontSize="12" LineBreakMode="TailTruncation" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+
+                                    <!-- Quick Remove Kebab / Action Button -->
+                                    <Border Grid.Column="2" 
+                                            HeightRequest="36" 
+                                            WidthRequest="36" 
+                                            BackgroundColor="Transparent" 
+                                            StrokeThickness="0" 
+                                            VerticalOptions="Center">
+                                        <Border.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="OnFavoriteItemMenuClicked" CommandParameter="{Binding .}" />
+                                        </Border.GestureRecognizers>
+                                        <Label Text="⋮" FontSize="20" FontAttributes="Bold" TextColor="{AppThemeBinding Light=#64748B, Dark=#94A3B8}" HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </Border>
+
+                                    <!-- Arrow -->
+                                    <Label Grid.Column="3" Text="➔" TextColor="{Binding Color}" FontSize="18" FontAttributes="Bold" VerticalOptions="Center" Margin="0,0,4,0" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+        </Grid>
+    </Grid>
+</ContentPage>
